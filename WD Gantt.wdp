@@ -1,0 +1,118 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Gantt
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Windows 32-bit executable
+    internal_properties : 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
+    configuration_id : 6528397570867248951
+    type : 1
+    generation_name : WD Gantt.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 4
+     autoincrement_version : false
+    icon_filename : .\FLS15221e.ico
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x42494166000b8528
+  elements :
+   -
+     name : WIN_Task
+     identifier : 0x427a51a7005d6444
+     internal_properties : CAAAAAgAAABk4kxoVwwkx+6DwFvH74yZBFejy/o+brFyYhd6koAUJJgWcBP1C4Tgu2dRr3dpEYdx8Q==
+     physical_name : .\WIN_Task.wdw
+     type : 2
+   -
+     name : COL_GlobalProcedures
+     identifier : 0x4284ee3a07bbbfed
+     internal_properties : CAAAAAgAAAD9WdXJ9qMLFDn7C2/BUE+TtcZQ0NE/hGKiJjG9q0dPgbdV9snjbF7wirYgmBjIsCDoaA==
+     physical_name : .\COL_GlobalProcedures.wdg
+     type : 7
+   -
+     name : WIN_Main
+     identifier : 0x428380f9005616c0
+     internal_properties : CAAAAAgAAAD3Qe25OseHJMyqJ54g2nf66IBsmhVd7pl7+w6IVPCVtr+TZay6esOIHqrF8t09+uFy
+     physical_name : .\WIN_Main.wdw
+     type : 2
+   -
+     name : WIN_POPUP_ChooseTask
+     identifier : 0x4285fcb1070fcec6
+     internal_properties : CAAAAAgAAADFQS1xzuvD3OHUAzTh7MLAm6jmTnuqgpKCfhqaa7ffESM9qyPt2ifpsm5oUNAA+OjQUA==
+     physical_name : .\WIN_POPUP_ChooseTask.wdw
+     type : 2
+   -
+     name : TEST_Main
+     identifier : 0x428b26cd01b6d286
+     internal_properties : CAAAAAgAAADtb9s3gD0Z9iYMjs92CsM6GuxIDEqcPrmzIyYR/tDl5l3931baQ026cDRTbFezDPdo
+     physical_name : .\TEST_Main.wxt
+     type : 17
+   -
+     name : RPT_Gantt
+     identifier : 0x428cc6c501fa82cc
+     internal_properties : CAAAAAgAAAB+5FZKeSaOoaRuYnV+QrHFkrXRQWBuihyyUpQyeLraBiI4sMI3yvuHBTGrFZ1TL6Fr6w==
+     physical_name : .\RPT_Gantt.wde
+     type : 3
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAAAySygPcZ4GJX0P6OaZtGImf6VeIpQpJLYsyy6IpEyeB4oR6+2AWanMnxYyL8kUO6ZLoCf7gRyLXo4A3BCx9g==
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     code : |1-
+      
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Windows 32-bit executable
+     identifier : 0x42494167000c8567
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

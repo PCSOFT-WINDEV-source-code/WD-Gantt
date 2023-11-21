@@ -1,0 +1,87 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GlobalProcedures
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x186e692300e4a824
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAD4acx7H5OUUFNl34XuMBghCkCNsZ9kbkmrZsIJ+BhufSt5A7nfm2Hj8OXBPuvWKjiwkwRPsawCR3jxuwmMc8tVyoWcvkDQ3gLp5BFnNAqhX73WNkwhVdlo
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABKtXZQhV4NiBcWu2b+84SrzzgtQaCxzD7lm8c7yasOg+u4EN0huZeXQiIziQEe95jziINL38d7elmu7Mfhsul9TjksuYRoOdb3b6wSJ6IHrwRDVl/v/2Mxkfu56BaBpLvAZxW5gatg6XqTuw==
+     code : |1+
+      // Structure to store a full Gantt chart
+      STGanttChart is Structure
+      	arrTaskList is array of STGanttChartInfo // List of tasks (with internal information)
+      	arrListLinks is array of GanttLink // List of links
+      END
+      
+      // Structure to store a task with internal information
+      STGanttChartInfo is Structure
+      	sTaskID is string // Identifier of the task
+      	nParentSubscript is int // Subscript of the parent row (hierarchy)
+      	Task is a GanttTask // Task variable
+      END
+     type : 720896
+  procedures :
+   -
+     name : DefineBankHolidays
+     internal_properties : CAAAAAgAAAA3BU3m190owvGjb5vRoCFE3XgktAooVAHX3g0BkHlCENteNeSpmi9msefuzix4bZbc6lZ2Rc2h97yi4TuN43XQ1c7sHlC8hxgkjRDygyTl30c4PToIpWFR8AXZOs7d0lIVQmPCFZq/6B8hFRGBoWWt08v7oZmAqpG104+8QjRZJfW6BgBDXbAGu5CU9djw6ztQBw7WE4tpe0heBCPPztI3BL5sjbzQ9nkdkubVwn5GJfMIJA==
+     procedure_id : 1760460103408265252
+     type_code : 15
+     code : |1+
+      // Summary: Defines the bank holidays (will be displayed with a specific color in the Gantt chart)
+      // Syntax:
+      // DefineBankHolidays ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DefineBankHolidays()
+      
+      // Deletes all the bank holidays
+      BankHolidayDeleteAll()
+      
+      // Loads the list of bank holidays
+      // This file defines the bank holidays that must be taken into account in the Gantt chart
+      // <Caption in clear>: <Format>
+      // The <Format> can correspond to:
+      // - a date on 4 digits (in MMDD format) to define a bank holiday whose date is fixed over the years ("1225" for Christmas for example).
+      // - a date on 8 digits (in YYYYMMDD format) to define a bank holiday for a specific year ("20080808" for the 8th of August 2008 for example).
+      // - a date in the following format: <Month>_<Week number>_<Day number in the week>. For example: 11_2_3 for the 2nd Wednesday of November.
+      // - one of the WLanguage constants (value @X)
+      sListBankHolidays is string = fLoadText(fExeDir() +["\"]+ "BankHolidays.txt")
+      
+      // Browses the bank holidays
+      FOR EACH string sABankHoliday of sListBankHolidays SEPARATED BY CR
+      	
+      	IF sABankHoliday IN ("", EOT) THEN CONTINUE
+      	
+      	// Don't process the lines that start with ";" (which are comments)
+      	IF sABankHoliday [= ";" THEN CONTINUE
+      	
+      	// Adds the bank holiday
+      	BankHolidayAdd(ExtractString(sABankHoliday,2," : "))
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1284ee370056b69a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

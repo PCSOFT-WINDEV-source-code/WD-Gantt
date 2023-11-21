@@ -1,0 +1,2023 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Main
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Main
+ identifier : 0x286e69210b3fa083
+ internal_properties : CAAAAAgAAACKCiXWBpKrt8/gUJ5HHhyf77F6GRQWsyDxuWski/yUE+a+1SYKdU0O0+wCh0BZ8IPKKYK922XZxgzZ8JHZaj8KeeO0QL2KHQwrcW3eR4aDuUqNyLKSBvL3E+oV7NnwkfPUIdKj4oNuEw+qkkJOGk5gymM1P418cYPVqZBMC/Ip19R5Kf693kjg9SCqeeM+++Nqjb597rfJYp/NRu9x2iSpbvm0TJfNnmae4xUfVojOUDQFZW/AhdMO91Wgb6jzlkffS1JdBdLPYJBmMTP641+K4s2lMa7dh/tKu+2WvV0LVJQTsWneH9To/MVX7jNnx1FBJPDNV/QE7rlSPnwxWqwGAB+tsmsAjDf8WebAALCrXnbYG8XP8mvmyj6PNsHOXqXhYmsLOW6ygj6+uysqES4qcq0H/3srA0bpsU6xtTOclMTsYnmAHXJzUeUlUak+AvutNU6B6Dn1btmB0ZCu9Weo4EunIG8VwW6O7NiJ0Cw9xI1oQD3dncIuAzE3Z2Dmo8FhvW+4VOMI1/i/ngpz6oGCCoYx37/xmSV+7pVmiAnzxOsqKZqXFSwqCk63JDS7qvrq1K0wGl4GXUD+lRPwRSgH+RmMmHtyLSpER/1/zLK2cPqSmucUHPODKx6+ufgKSAUkGRJGTck9E0shRGgOUHbhU1psHw7Sa/euRoj/SO2hjvrx6rsvm71iW3pBTCr5VwjDVpxiFV4rxgAR8eFmI5P2NTfqYnn5jpUVMGjlIk62QCYplxm6yJpWWh5x7kM+JhzagAo09i+14RgORinKlzw/9RS1VrzZu+jk+3XZf3uc0N4X0G0s1hE=
+ properties :
+  width : 1031
+  height : 762
+  widthClient : 1029
+  heightClient : 730
+ controls :
+  -
+    name : TABLE_Gantt
+    identifier : 0x286e69210b42a083
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 118
+     width : 1016
+     height : 575
+    columns :
+     -
+       name : COL_TaskID
+       identifier : 0x286e69210b43a083
+       internal_properties : CAAAAAgAAAB3pav0Y8xR/YzMdmZYywsXPfpX2go9cp0H+MaJoe7cjGfaizaVYIKE7iK7DiA8resgV4rL2jEHhHT8CEj7OwHbE2Jenh3bklMEfq5DBFKwEzf/2a4gr4gL9a/gEK5MQMH/jJPv6u/dv8TrYf7UDbcFPPcgsBpO0jHT1tcooK/szVjaqx/cYcAJlxXOqBT9wdfJtXQJIywEkS1+pFziwQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAnGaBpmQExqD7sa6QkrRTwY2SW2FIY9LSC3u4PdnbOo4KAxF9B/fTLyQErhV/X60/ET6wUJsIlu9KLRoy55SLTs0b+SBTnneB3f57tatUh2rM/YXJBwzcjCjHd8tp9jMT4FmsXj4iSCiTUW3CepWgre04J25dDbfIEQT/vYNJ9wXta6SsP1tteweX/iyO34SAXwbtuAjoaTdNHoHqjsJJtbN+3cijwL+lhWYdUaeagn9yg1u8veJ6VpwJXeVwEpTek2+t6lGBc39+trHJH+KZm00wbUY8kyKOIqUi/TKUY3l2mg/jUOm3pRpuWcA1aR9NePK4uIkPUWEAe5LG3+KlFlDrXwT0/urqXDLtIcicZI/T8ZZQKIr0eOF7QN5YmJxU0XZao8E5ft+FPYnBhJ5taE2ogJnF2DADBnPaL5vdFNS5J28Ksqk0Mzk+EK3D1qXc4hnMxL7l2NS7qOsR4zrLe1IRSjsB/J4Wbw4J/5nlA0aBdrcu2zXhdGO3V2UIWqvio1HScXIwHkGehZm49A2y9AdyHLfqcaiqRURzbwLtTUDg2R/FQIB3tc5O7N5gfN/2Dhq9ug5e01RqGHET3bM8tiYhP2fulhWa29/ju+wOEZaFdPUU6apUh6y20bYpqbgcTAyKUi+NHKO5sB6CY3nSJzCeeqQc0wbRedG5F9cELK29C8kX6FYMVeqqLQhAZDRZSm8J+x/SCxWP17MX+EgsmwSAYOdN0zMuZos4CI2KIaVYsPoxoekmcMexSDpFepEje8eTsunE41K/LKjQ0Qd+mW3ah9imrK7yDwTPXNlIMmlqed3OgeAsfJ8K5ZVavI8sdseC3Jbcv0MEMW+vRZDmOBlfs7yz4ZuPFj6fqLrGP5Pk0+rnmP/hZZ72FC58WNZtbu0FmXh+y0e9mE7lg7j7xaHXyShkBEx4x6mbF+orW+FZ130cH24yCKU5edCTa8AwyWtHH6YM6gwB5aUifUY2UxpAZwIEbnA==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACx0oE1/gn7UQOtUG1LrQklMahNWeaJf9XF8DAp+0lMT21EFmm+Nt7SH+0cncT/BuFGnTFJ7vtpw4wSyj+rwXTPAVWbuVqZrZQH4b/Vm77PcJsi0tKADDwDpU/Wvv4nm/CAQIey3jwNhTfSAwckbiMYal3JhxRDESA2eiGnCAS8HJmf
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Title
+       identifier : 0x286e69210b44a083
+       internal_properties : CAAAAAgAAADfDadPswLa+h5He67M/kh1oZh/T5ruCJ1tC2GXw7OfEUfpEx5/fcYN1n7z6iZkgZG2gNBtbLeZA82tOCMZS5SEB4LVDAqci8pekhD9BVRBTzRPZfAzOBsr8OdFsvY3QT88xom44tG9ICH+XAYEFudks9gHifjRBqxRbRQ0XdRuDFh34BX1LV9tcCCMcevl7bFiBOOIEzBGWG4V5yaT1hw=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAnGaBpmQExqD7sa6QkrRTwY2SW2FIY9LSC3u4PdnbOo4KAxF9B/fTLyQErhV/X60/ET6wUJsIlu9KLRoy55SLTs0b+SBTnneB3f57tatUh2rM/YXJBwzcjCjHd8tp9jMT4FmsXj4iSCiTUW3CepWgre04J25dDbfIEQT/vYNJ9wXta6SsP1tteweX/iyO34SAXwbtuAjoaTdNHoHqjsJJtbN+3cijwL+lhWYdUaeagn9yg1u8veJ6VpwJXeVwEpTek2+t6lGBc39+trHJH+KZm00wbUY8kyKOIqUi/TKUY3l2mg/jUOm3pRpuWcA1aR9NePK4uIkPUWEAe5LG3+KlFlDrXwT0/urqXDLtIcicZI/T8ZZQKIr0eOF7QN5YmJxU0XZao8E5ft+FPYnBhJ5taE2ogJnF2DADBnPaL5vdFNS5J28Ksqk0Mzk+EK3D1qXc4hnMxL7l2NS7qOsR4zrLe1IRSjsB/J4Wbw4J/5nlA0aBdrcu2zXhdGO3V2UIWqvio1HScXIwHkGehZm49A2y9AdyHLfqcaiqRURzbwLtTUDg2R/FQIB3tc5O7N5gfN/2Dhq9ug5e01RqGHET3bM8tiYhP2fulhWa29/ju+wOEZaFdPUU6apUh6y20bYpqbgcTAyKUi+NHKO5sB6CY3nSJzCeeqQc0wbRedG5F9cELK29C8kX6FYMVeqqLQhAZDRZSm8J+x/SCxWP17MX+EgsmwSAYOdN0zMuZos4CI2KIaVYsPoxoekmcMexSDpFepEje8eTsunE41K/LKjQ0Qd+mW3ah9imrK7yDwTPXNlIMmlqed3OgeAsfJ8K5ZVavI8sdseC3Jbcv0MEMW+vRZDmOBlfs7yz4ZuPFj6fqLrGP5Pk0+rnmP/hZZ72FC58WNZtbu0FmXh+y0e9mE7lg7j7xaHXyShkBEx4x6mbF+orW+FZ130cH24yCKU5edCTa8AwyWtHH6YM6gwB5aUifUY2UxpAZwIEbnA==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAQ5eJ/fyTidy95fZPkHPjusi6Ah3Ah47zrqwlkn8U5ClJm01ozpD/hchbI9DNRNcuja9XgJ3EsRQoHPhYcoExRXIXsIoSZR9NS+g==
+        type_code : 3
+        p_codes :
+         -
+           code : |1+
+            MyGanttTask is a GanttTask <- COL_Gantt[COL_TaskID]
+            MyGanttTask..Title = COL_Title
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            
+            
+           type : 17
+     -
+       name : COL_StartDate
+       identifier : 0x286e69210b45a083
+       internal_properties : CAAAAAgAAAC6eSCjcr5eMzZ0FcRyCfhvymEafzj7nxBzJK/7ygj+PPx2KigHZlKZSwwLmcjraCp/EuW9N9Ng22QKoeZ/S0qk4jnYOgfmKcloVEiuqaivyOf/7YJJbBtXjLpMLHGkwMaPjuKtrgosiSZdcTCg2PaaAgYRMsj+VSfrxr8eervS16+LQi5FySjhi0DPFrnswiPfsElqp6G61NFt7oqiqadBtCiuUeaZ2PTuAUxbHwPlGoGNcTJc4QZSsv1HTb/z/rOWyaeAbEDGOXL/vxkHx1ibRlEYRtU1TwyBqAZwrSFaQIb0MLFGyYc+gXMvpjvnsFkHkTMFyyEHvBwy6Q3eFJQQld5xnQdmoQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAABTfDKUzyWYdCSBJCgGrfa5wiFYudLO9pV2Qu/SWS37J5N6BLBqIbjkbIhqVE3TYmSKEdZOfl0+czXs2wItoVZnaWQtHCTrQYbNkzhJLpnS5tofySaNwHz4NndqD6vpLE+KoZV0/TWvt4ol+93f1zYRyrYvdIJOwnZzFLf4S3k7S9YIMs6ea+RAb1gtDgrTOWOIcYjdCv/voHvn4vFr5XAAnyiMpoyHqmy6k9/m5vLUVzknidMVj4vUZZgXLL1xq3TGPGVZc+jrEbMLg6lvNH0gueEn44Lj7KCpVxK2SUwtwq1ZoZ0GZTZBVFE+1PmsSQiAAkvEjC06XRyCMXohgMRSeJqIAHHyNM6JyCnUXYMkfJtBZg/CrSTlRiy9dGr32YyGWlJRsjQKmyJZcmzCci+78A3wwnu0XUGqKoBx4PRCOSx+UQysqiQ1Xk8v6sibqYJdJBktDs98BBzrQNXQBoA6w55nPKL6xEiAwPp3rZmOym3m6+uXwxbDWasc7goi1sbYcQrD5/BXWoHLHGsYVdbFJbLJWG/o0PgfH16MXyGHbKDckRoz+N0DsZ+bgv395VPVBCFnLg9mYwjY+sGmsF9Hj2y3LJRH7/CovcqJGJcU1y8zf94xwiURJ9eqfK8s4jGZ236bcOFtMkByUYtFjHpTkjlEcOj4maxq4tCeMO1Bw2OIbFDjtyGbUKq/Ab2N9VCIFXjrXloCC4GFEC4ZQAMUix4qpGBGosU7xuZNsKJ4Xzg6CJ0H5L3KD1T2ZRqwCvAyLfQhnR8cPLM/QhcpqXV+rxAvq4xt3e5Vr81Ci6ZscFRUUcZBHGX7P/hzbmUll/9FnZgKpgW5UC38VxRAEuM2ymHazP8scOWvSTVXVa+JQjOeYOAPkWYfHaXJWgS0qQ3J9Ud7/Xn6VbfeRwCFKn6N6LuUheav4aop0GAAI2rw7E49s4Ykq6D/3G1rfySxCOwbIVYns2a1ESh9XIfC/toL2s4UIQ1ks2fSbvt11T9XgI3iEWlGwB5QU1ivC6EixS0cD4jhRIDlkmfplilqPoQ=
+        calendar :
+         internal_properties : CAAAAAgAAACpgux+M9sVS59kV/7wXbhLDRNl2Jq1j3z70q0nyE4sMUJqwCsOywDvbc1Zl144XOAijF4kbJOss6xBTAKeJLvq33kal8gjukUJ/y2/DpM2EKvPXK6NbalQrJsF9hPPmjv3IdjVKBBd2cdiq16gF0x9cNxILWmS6CMT91JdC8D3B2Vl1BTEIlpEegPklYljl2n5K1X0e/4+Lt32Q5lX2HE1TBzldGPUdKJXL0M1Jq/SAJi5TTnOKORYzDHCNYcWlxmVGp+RO2Zrho9Nqu76Gsz5BPTJDzKJln2x7rbG9y31phbRqqoLdXomI/eEOmmwgEeGD3EozjEvj7P+3eieMSXzuC7Qn6kgpZHKUEeB7wtIq5YLPJjUboOAJ/y1BQTohIdDG3+UGxvJmL+MihekbVBfeA9W91Y/u9FYpVSl+4Ur7Dw3gCsra0BFXZMzZWzyBZ9SOnsVeRzQ2mzz+cMACjLE1ACpvNSkNVHUydz/22v+vNJIEAVKBFYMFqAiV64UFZ+M/wEweqMj0DSQ/A8JvckOwjrFKCUQqgB9OY8qBLaeBEyt00cKHD3U3JcP/4Pinw4+s8st2JsCehGc2aQ3M1gzyXYbnypxAP8IMODNOrAUR49VmSCTQcn4xIq/KyiVHBpM3l0UMi3gnhPhZYdyTJUWAEbb+ydKN8AuHaRTHL2xH13lDqGI1FyAB+KNFeFsnsNU6/eFxWdVn/8lqr47UE5C39N5kuz4CvYwcR8ODStPQ4ac+MAwvZcqi2rYMgHIO2jj8XkMXspRy2RkNIKnLVJgICvCBKbr1AF+24m+kwmVIpVC8YveSyTItKHmkM88J9caeVChKpTEe5VZP3mG/hyaMbJz50AgeNQFFHJdkMj8Y/N/98U5V6lqTgUC9Jw9zZfBmrGuFjLUbHXYqC/KeTQFIxB89sGR2n14AB02SRIt8v69ypzbYcEBcnffxWGO1w256ZrMQ/TkulQN9HM14+/CAp8zU3R9kzkXQSd4RjKqPyM3fUtbYYXnZwxEaBbNJqhgcwy46zXzeKpF0VtZE+jSx+FqSxk1wT3FietQkIhvXwmXDrshEW4s/IGXSQREd+GY0sDE1y8w9nXpc7xtNZbu5FjyhBzWZGeAvGLf6VaslDDcqxLJiiWOU+9mIIKY+fPwdQ9AQ0d93FT89hU1kJe7ASO+eDmld77LKbCXHipQH5/5niWRtQym+izD3ar1wSujUuLxOHvdqVqrnMjC8QW1R8LZBlHGAK+dBzbsrMw+lBM2aaho5rp2zJq9BLNmWRIYpVjYC2S7mt/tHmScxlAQl0Zs3tT+ms1rsKXsPhNo3xqNUILoigqvVt0O6iG+BI+f/A0ZFKUcFioQgyfnO5TLTRSvFHd94CLPEtfSPvj5j1urpn2zpSGUp4m6sEGcQHhQMmZKmgLsJNleVlFYRn8JQr7JEtz7vCXVmFm8mHnZinszMiYd/NSdwu2gkV+t2YwCuY5mqmNhgJYSMMkYFBZutzxTslg1s2Wohd2htr/NscvJQZKtHhVbgt3WWJEU0aumj50nHNa2AL/iygrKd2B3nLLsIPKllg3MB9UGZoXGMiIXfmOQNajQNdSdrbXQ2fL1Q5aBzIHecEP7HmlsZxqcYqj2k764cISzNYEHG3iC5nf/y4nXbdBaM72uvS5j4WtV0FmgDFZ8OiO9RZJakIV2ISqb38kc14S9O9ywtJ5HjBelIaoWhiB/LRg2Wu1pLqv+D/B9JaT6f51kUSCT9BTRtWu/vITrVj8eS18B2Zp/TImFjZ8TKnjBgmHMSJBcZOzv5BnGD42w3yVu636MCHkj+ERrDG537COc6pj5Sz+h/rLgHkCR6jF4ulw3srgdUvZREiR1gsuOx4Omj+g51dSldVFgOg4=
+         type : 47
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAD3PgtDfqBXUfQhQPgYoCojDGzAcS1Rag+uMUL8vu4YpBYMElAcYdULClAIcI+4rWdG9k28hcueohj1ZkWMWuA=
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 15
+         -
+           internal_properties : CAAAAAgAAAAZ28xHz0xtBpEaVxiEDw5fGWvu3BZ3BzOhmJOeGLXpMSv+oACNKj0RUpmPhhQq45yp3FgEJgr1KfFgS3wxD/tXPjY3WipH17mb9WWTn+ndJSR+5+6DWgmIS0sYs7BY2MPCXsJIZ60IfHJE5b4=
+           code : |1+
+            
+            // Modifies the start date of the task
+            MyGanttTask is a GanttTask <- COL_Gantt[COL_TaskID]
+            MyGanttTask..StartDate = COL_StartDate
+            
+            // Updates the values of parent tasks
+            CalculateParentTasks(MyGanttTask..Row)
+            
+            // Forces a reorganization if necessary
+            IF CBOX_AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+            
+            // Updates the information of the Gantt chart
+            DisplayGeneralInfo()
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Duration
+       identifier : 0x286e69210b46a083
+       internal_properties : CAAAAAgAAADAMqd6rl0NvAQnUH49QPidES9wYMxDNmdPVYjFJPS+rD1m6TpblsSbU8rI0t0Y+iPd7tbUPBVBPRPBY60nARRZ6gRwSP5lCV+Y/3gJ0RZxa7ar5eHD+NzW9r3VFL0lnx0aWHJPtFaPS/vtZAw0ZtXolrhsiZ45t/8tH8ByvvNDgJ/uKm+w/jDuKlmFv4QTPnZLFtEyMrPY2xwrkY1okmBxHoqM/1m6QScaGteUeSK8nb1J
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAApyHkjPW1jFdGZANW6tLrioxhTvYc5w53N6ljCT09HO88WsHuwSH5o/g33CE+D0q8KVuMD5PROU+0LqtcvJrrKWEce6ZAEuRFqfQdV7Qh+GOnTbWYafhG45ArPo5miBYGbYQRatCqdl2pnkTYCpAvY9P4VBRaNTLikcYmccL9dcDNUB07/GUKnyciH7QGIxLctlZO4+CRtrQPuWuMpigv5XjgvNl2MUIFxqWZl6QaOXROGGvS414iP9UdzbifyT/vu3bKJpNTyccrJmssZxnnAUo5e/UJVBtmnyZJ4JCm+wKWNKLoifvgdQWKCmttCQA7ORnSYmB+94y86soZvHaZhsQBIm4IKQKfql/TxRC13ixG+R/esVxkCYEe328eS67pW7u0jv2+J3MJ3KpA0xYiS0FItenPlFbX3Oy3eO4BJMah9Vj1QdZwiTKgXVOUKes9kysWyan8POYRhKW35EIPJ88DiecQJ907rsAEI0/3H7z1BUYE/05BrZ2iA31HOPr3GXQObhsAR63LDFww8q2o8p+N0LMa2jKV8mQ3jxZW/XYwXyj7iDAH4jrtqg/+BJUitm3Izy90oGJkQ5e6ozHv0WZfoXAn9s+cXWUPM6mNKYl2EQhzg9k2sBh2NZV3ISMw/fAWhGyGLYwVYIrS3QN6eyDIDYj1ID1GLSoXpBoHliNUTaRJag+9uI1qUDjO1gVm0zisZLx7INtBhkfM9YtPBRa894EFIlGTGlgFcGMQ8ar6RYdMSDumzOD7zSOI+FFXqnvcLUAH8sShzO04RU6NRjXPcu5F9ByU4S7RvhxiQQYBFcAos5k+2PuzM76mjAfJFSqPMAW0VSS56sK3uznXjhL4pINCO7JA26bJuyaUHh/srowroUz7ueKs6mXh262qrkHjNnu1+SuRQ1GNnhmYelIoRiw9ht81QugWN9wSORSQaHhxp+zIFQ2uWIJSr3J05CzjE8vhMkrt+AUmX7W9fkP/2cNC2zxVcGC94+ogITvLLItE=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAAAP6d5VkSOBcvsAm67Y44DZP2HEUDgRY6fTvi/EJDFnR4UoLgzr9Enh7C8fUHTCxS5jXnK8wDgw4rhnblMCzqxO5w8yQZ8Cfu5OSPjSOEAGlOVntqkMGcztekpboqFH9d7fkw3/fOxazoBS86g=
+           code : |1+
+            // Modifies the duration of the task
+            MyGanttTask is a GanttTask <- COL_Gantt[COL_TaskID]
+            MyGanttTask..DurationInDay = COL_Duration
+            
+            // Updates the values of parent tasks
+            CalculateParentTasks(MyGanttTask..Row)
+            
+            // Forces a reorganization if necessary
+            IF CBOX_AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+            
+            // Updates the information of the Gantt chart
+            DisplayGeneralInfo()
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Progress
+       identifier : 0x286e69210b47a083
+       internal_properties : CAAAAAgAAABw61Mm2pjtR6INeNSNQpnKDTdnPvY9wcER2qOXDCgEys+51qpFKzjwG5PyevHdXqrIM9LxdV/YowVSq3Hxebl8vpzd4J/SEyJsZ2IrScja7FjDic5vzTQLYzbYo/ynYPk9ofzSnN7OZ4i86uH5SuDOYg6nHA6tOsRGzxDruYpPlCFboWbmHXnp14rwAg74gwcf/OOTNKqlAbwbdyVhzFrwqqo/HFMqaQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAC5cJbUhAY4pB+yxylcDeVAYQeqJxW2pjfqVZJwZgzLwo/EQcIN+MyU820CgshoChoICxmLOlOtmFNdtBd4p+ZJkMqgvfN+r3KPlqJV4m0d6TOa7QIfyE+1vr9XDvXF3KHJt0/tuVzUOdWMeqEE0J15HTmgzGPHc5+e3WQtuYxd+viib6uK3Gj0q5GCERsjXb2JchS9ZylcfDhQ9ont7Stuqz/i1tDol61v6Sp2EBr8KmauBNkIvKiwnYuW6MDKx7zS9A1kKCDJEt779whOGv7ajBtHpCEuJO9fgN2ynJOpSdJ4GFdD48274Exv9zQBSOlgHAPGxBQWBamRi6l/8peU1fZJVRHejNf+QUfDKBOllFHrnngSwENjpOaO85qFbJKgDPyRdRP96pnis1LPNRiWlngfu4uZ03ktXTlWcS6tyx/iR3iUEK6fehYLOeo3w8v0/dQrDhgqJG8G6pjY6bAaTRVwmmmhB6as4bPt8WNLshU0BN/4TDkK/MJPU3ntcV4Xmv18cs8GiqzPUP6C7iVdXoZ2R76JU76Io+IjTWpYkNUUYO8IS27T1pGtZzHCmNGuOA6mPeD9w8tcHpy4a+gDKHpky7vytjwfx8RErBibLbItSl+muRAFSJ3AOx3fsY92nxkk1YjMNi/cyzLTywmvXfOv4cUBimZJ2jg1yD6UBUBiXwlcBnThR1gdup+U9MoRHxOUlxW/S6YVoIdxy876bvQR4XGP08lelHT+eN1LH9vKcTC6O/Ie5LAiFKgfZdgb6xNOEmQvxpJDZk6vDrJOsKIC1IFirPQK4/Ef71MFwBMkSCNGn+4rzIyHOZEArsEiY3c/ZxLM0jBSbduYbRYeQb8fsxIPk1WKLyu4d6RGbCoWj7X8xrNJ0L3hMWQrOAlgoVKs/vxb1axG32/L89mf6Sv98KWK4pIUkDB55fsH0NXHpo/R4vMBir1aBiyRVlLNOLnlQ3I6PO6uSAA71iH7lLOYOcxxcMFOayGPAo+jpWIDE9dmPQ==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           internal_properties : CAAAAAgAAAAP6d5VkSOBcvsAm67Y44DZP2HEUDgRY6fTvi/EJDFnR4UoLgzr9Enh7C8fUHTCxS5jXnK8wDgw4rhnblMCzqxO5w8yQZ8Cfu5OSPjSOEAGlOVntqkMGcztekpboqFH9d7fkw3/fOxazoBS86g=
+           code : |1-
+            // Forces to 100 max
+            IF COL_Progress > 100 THEN COL_Progress = 100
+            
+            // Modifies the progress of the task
+            MyGanttTask is a GanttTask <- COL_Gantt[COL_TaskID]
+            MyGanttTask..Progress = COL_Progress
+            
+            // Updates the values of parent tasks
+            CalculateParentTasks(MyGanttTask..Row)
+            
+            // Updates the information of the Gantt chart
+            DisplayGeneralInfo()
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : COL_Gantt
+       identifier : 0x286e69210b48a083
+       internal_properties : CAAAAAgAAADC1E+rpo0oRCSdXwsAQaC2xTdyyZheTBLCvSBRxq1mb0aIplhAuRVgW33oOt72Cbz/a2rgwtl3BHmfZBBq1+Q60R/aDMouYZqYVUgJFW8Kd3tkt1l+OhmcIjlgaYIe9QSz4kwy2MtUSoOaCoHqO8b3dxBF1x/BLDS8OJ9URHkHZsgOu/M5cpAaVGwqBXSnbWPhg+fqu/mB9w/KYetz/JmgyfQy/uOqNhe+yu1olzJ6MsdjrSfSsPbWtPh6lQ1wu19LlncDiQttUfzOneMuREjM5MwmBK7mx6zXOilHpLerjq/zaOD093SaRGiaNaXuCh8+
+       type : 110
+       content :
+        internal_properties : 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
+        type : 110
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 133
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAADFr4AL7+CPgmV2A1wo05YvLac2AJ77L1/dPCdqTJGJEdcaCNytVuVt9nVzigi228RN+FiYhr7jN8OSGUobNdGxuAwVQDxt9VdlD3ux+b+LF7b8ZWRFIF9elR1WQaJG9t38JBiGQeWgsKYIOWI=
+           code : |1-
+            PROCEDURE BeforeCreation(gtCreated is a GanttTask)
+            
+            // Creation in progress
+            gbCreationAAF = True
+            
+            // Default parameters of a task
+            gtCreated..Progress = 0
+            gtCreated..ProgressColor = COLOR_PROGRESS
+            gtCreated..BackgroundColor = COLOR_BACKGROUND
+            gtCreated..ID = GetIdentifier()
+            gtCreated..Title = "New task "+gtCreated..ID
+            
+            // Opens the edit window
+            IF Open(WIN_Task, gtCreated) THEN
+            	
+            	// Adds the new row	
+            	let nSubscript = TableAddLine(TABLE_Gantt, gtCreated..ID, gtCreated..Title, gtCreated..StartDate, gtCreated..DurationInDay, gtCreated..Progress)
+            	// Positions the created task in this row
+            	gtCreated..Row = nSubscript
+            	// Updates the task information
+            	COL_Title[gtCreated..Row] = gtCreated..Title
+            	COL_StartDate[gtCreated..Row] = gtCreated..StartDate
+            	COL_Duration[gtCreated..Row] = gtCreated..DurationInDay
+            	COL_Progress[gtCreated..Row] = gtCreated..Progress
+            	
+            	// If the task is a cumulative task
+            	IF gtCreated..Cumulative THEN SwitchTaskToCumulative(gtCreated..Row)
+            	// If the task is a milestone
+            	IF gtCreated..Milestone THEN SwitchTaskToMilestone(gtCreated..Row)
+            	// If it is a simple task
+            	IF gtCreated..Cumulative = False _AND_ gtCreated..Milestone = False THEN SwitchTaskToStandard(gtCreated..Row)
+            	
+            	// Reorganizes the tasks if necessary
+            	IF COL_Gantt..AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+            	
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(gtCreated..Row)
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            ELSE
+            	// Cancels the creation
+            	RESULT False
+            END
+            
+            RESULT True
+           type : 135
+         -
+           internal_properties : CAAAAAgAAACVX3C7H7DrwhXW81wQew6f1YfWoL7rj9c11E9yvCGJiZei0KR1rp2dNnWT2mDOs6RFyDgYJh6vY6dODe7HmXWNhLgxXDhx4aOJ6x+VJePfM/KocbDxdCu6uanKBQ56ynnYoJRiDRXQYBa4aTI=
+           code : |1-
+            PROCEDURE EntryInInput(gtEdited is a GanttTask)
+            
+            // If a creation was in progress, don't switch to edit
+            IF gbCreationAAF THEN
+            	// The creation is no longer in progress
+            	gbCreationAAF = False
+            	// Selects the row
+            	TableSelectPlus(TABLE_Gantt, gtEdited..Row)
+            	// Cancels the edit
+            	RESULT False
+            END
+            
+            // Opens the window for task edit
+            IF Open(WIN_Task, gtEdited) THEN
+            	
+            	// Updates the task information
+            	COL_Title[gtEdited..Row] = gtEdited..Title
+            	COL_StartDate[gtEdited..Row] = gtEdited..StartDate
+            	COL_Duration[gtEdited..Row] = gtEdited..DurationInDay
+            	COL_Progress[gtEdited..Row] = gtEdited..Progress
+            	
+            	// If the task is a cumulative task
+            	IF gtEdited..Cumulative THEN SwitchTaskToCumulative(gtEdited..Row)
+            	// If the task is a milestone
+            	IF gtEdited..Milestone THEN SwitchTaskToMilestone(gtEdited..Row)
+            	// If it is a simple task
+            	IF gtEdited..Cumulative = False _AND_ gtEdited..Milestone = False THEN SwitchTaskToStandard(gtEdited..Row)
+            	
+            	// Reorganizes the tasks if necessary
+            	IF COL_Gantt..AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+            	
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(gtEdited..Row)
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            END
+            
+            RESULT False
+           type : 136
+         -
+           code : |1+
+            PROCEDURE ExitFromInput(gtModified is a GanttTask)
+           type : 137
+         -
+           code : |1+
+            PROCEDURE Selection(gtSelected is a GanttTask)
+            
+            // Stores the task as reference task
+            gReferenceGanttTask = gtSelected
+           type : 130
+         -
+           internal_properties : CAAAAAgAAAAUD9XQb2RG90IQfgxfRXyNjvU8e/yKKXIEqiDF6xJcd2CqdwQQzD2jCdHZc1zshvFb3Dj99scKumIdb7cNekR9SD7kx3PxXUM3UXASLwCp2sB66Nmg3qwBiT0c5ddwPXKCuR1hhPImyzVlhpXpbbmAoZbPuK8oLk4TtybaKFqu6WjhogKHEe8EQsc51GvzbcFQ
+           code : |1+
+            PROCEDURE Moving(gtMoved is a GanttTask)
+            
+            // If the task is a cumulative task
+            IF gtMoved..Cumulative THEN
+            	
+            	// Repositions the task
+            	gtMoved..StartDate = gReferenceGanttTask..StartDate
+            	gtMoved..Row = gReferenceGanttTask..Row
+            	// Message to inform the user without locking him
+            	ToastDisplay("Action not possible"+CR+"The cumulative tasks are automatically calculated: they cannot be modified", toastShort, vaMiddle, haCenter, PastelRed)
+            	
+            ELSE
+            	
+            	// If the row is different
+            	IF gtMoved..Row <> gReferenceGanttTask..Row THEN
+            		// Repositions the task
+            		gtMoved..Row = gReferenceGanttTask..Row
+            		// Message to inform the user without locking him
+            		ToastDisplay("Caution"+CR+"You cannot move a task to another row", toastShort, vaMiddle, haCenter, PastelRed)
+            	END
+            	
+            	// Modifies the beginning in the table
+            	COL_StartDate[gtMoved..Row] = gtMoved..StartDate
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(gtMoved..Row)
+            	// Updates all the tasks if necessary
+            	UpdateTasksAfterAutoReorganization()
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            END
+           type : 131
+         -
+           internal_properties : CAAAAAgAAACtpGyvOccg1SNcSYcgXKr94sxONFf/OHmJYrQalmnfeVhlvRUMu5EfyiG6e7XkGYQLz+l3LKX6H7D5TUafR/fU9VnNVZRjncOJct6j3etSGbPomeOdO52kdX7LZcPbqmxR/WroyisnLrrsnCc6+yld2Icd8yV4nZGkRZ+2kQciIQ==
+           code : |1-
+            PROCEDURE Resizing(gtResized is a GanttTask)
+            
+            // If the task is a cumulative task
+            IF gtResized..Cumulative THEN 
+            	
+            	// Repositions the task
+            	gtResized..StartDate = gReferenceGanttTask..StartDate
+            	// Restores the duration of the task
+            	gtResized..DurationInDay = gReferenceGanttTask..DurationInDay
+            	// Message to inform the user without locking him
+            	ToastDisplay("Action not possible"+CR+"The cumulative tasks are automatically calculated: they cannot be modified", toastShort, vaMiddle, haCenter, PastelRed)
+            	
+            ELSE
+            	
+            	// Modifies the duration and the beginning in the table
+            	COL_Duration[gtResized..Row] = gtResized..DurationInDay
+            	COL_StartDate[gtResized..Row] = gtResized..StartDate
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(gtResized..Row)
+            	// Updates all the tasks if necessary
+            	UpdateTasksAfterAutoReorganization()
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            END
+           type : 132
+         -
+           internal_properties : CAAAAAgAAADzxeoRjY4K9o8MP/rkr9Dpo71svCgNQ1tPcpOAqLVv77G8Tlgz0HGNWEMjtCgGfV43mtrw4BTiNE6t2M2gMN50vUHEywXsWMgUnvLsFhI4Sls5iKP6K8Y3sBi9FNcBtySlRTfh4l/Gurwez5Q=
+           code : |1-
+            PROCEDURE Deletion(gtDeleted is a GanttTask)
+            
+            // Confirm the deletion
+            IF YesNo(No, "Delete the task """+gtDeleted..Title+""" ?") = No THEN RESULT False
+            
+            // If it is a standard task
+            IF gtDeleted..Cumulative = False THEN
+            	
+            	// Stores the subscript of the parent task
+            	nParentSubscript is int = TableGiveParent(TABLE_Gantt, gtDeleted..Row)
+            	
+            	// Deletes the row
+            	TableDelete(TABLE_Gantt, gtDeleted..Row)
+            	
+            	// If a parent task exists
+            	IF nParentSubscript > 0 THEN
+            		// If this task has no other child
+            		IF TableGiveChild(TABLE_Gantt, nParentSubscript, taFirst) = -1 THEN
+            			// The parent task becomes a standard task
+            			SwitchTaskToStandard(nParentSubscript)
+            		END
+            	END
+            	
+            ELSE // If the task is a cumulative task
+            	
+            	arrSubscript is array of int
+            	// Delete the indent of direct children
+            	nhildSubscript is int = TableGiveChild(TABLE_Gantt, gtDeleted..Row, taFirst)
+            	WHILE nhildSubscript <> -1
+            		// Stores the row
+            		Add(arrSubscript, nhildSubscript)	
+            		// Goes to the previous child
+            		nhildSubscript = TableGiveChild(TABLE_Gantt, gtDeleted..Row, taNext)
+            	END
+            	
+            	// Browses the array in reverse order (so that the initial order is kept when moving rows)
+            	FOR ALL ELEMENT nSubscript of arrSubscript FromEnd
+            		nParentSubscript is int = TableGiveParent(TABLE_Gantt, nSubscript)
+            		
+            		// The row must have a parent
+            		IF nParentSubscript > 0 THEN	
+            			// Moves the current branch as child of the previous branch
+            			TableMoveBranch(TABLE_Gantt, nSubscript, nParentSubscript, tmInSibling)
+            		END
+            		
+            	END
+            	
+            	// Deletes the row
+            	TableDelete(TABLE_Gantt, gtDeleted..Row)
+            	
+            END
+            
+            // Starts calculating the parent cumulative tasks (duration, beginning, progress)
+            CalculateParentTasks(gtDeleted..Row)
+            // Updates all the tasks if necessary
+            UpdateTasksAfterAutoReorganization()
+            // Updates the information of the Gantt chart
+            DisplayGeneralInfo()
+            
+            // Modifies the status of the buttons
+            AdaptButtons()
+            
+            // Deletes the task
+            RESULT True
+           type : 134
+         -
+           internal_properties : CAAAAAgAAABddJwfSXdktVuc+d84PHKt0iTm9A+HiJHBuozKprHPEUClLa2MC7l/ImFKUw0EkfTbl+GH9F26N0Ch1fZ/r3fcuRUBudAnwe9dnnrPOcd23Td0HaeJPyHQWZpXsY/XvsBFac48lt97YsYgQHveb0VZ9JsZPxkEieWwdU/G4dfSUQ==
+           code : |1+
+            PROCEDURE AfterLinkPrerequisiteTask (glLink is a GanttLink)
+            
+            cSourceTask is a GanttTask
+            cDestinationTask is a GanttTask
+            
+            
+            // Retrieves the tasks involved in the link
+            cSourceTask <- GanttGetTask(COL_Gantt, glLink..SourceID)
+            cDestinationTask <- GanttGetTask(COL_Gantt, glLink..DestinationID)
+            
+            // If one of the tasks is a cumulative task
+            IF cDestinationTask..Cumulative _OR_ cSourceTask..Cumulative THEN
+            	
+            	// Deletes the link
+            	GanttDeleteLink(COL_Gantt, glLink..SourceID, glLink..DestinationID)
+            	// Repositions the destination task (that may have been modified)
+            	cDestinationTask..StartDate = gReferenceGanttTask..StartDate
+            	// Message to inform the user without locking him
+            	ToastDisplay("Action not possible"+CR+"The cumulative tasks cannot be linked", toastShort, vaMiddle, haCenter, PastelRed)
+            	
+            ELSE
+            	
+            	// Modifies the start date in the table
+            	COL_StartDate[cDestinationTask..Row] = cDestinationTask..StartDate
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(cDestinationTask..Row)
+            	// Updates all the tasks if necessary
+            	UpdateTasksAfterAutoReorganization()
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            END
+           type : 226
+         -
+           internal_properties : CAAAAAgAAAD3wZYd5UtVghswS96Y43AZXwG0YNhRs4ejHu9k1AGHV9VYDmx7hCmRLL8PAJSi1Y5jniKswBhYmuBvFruqhgQmT+f6aUdaZsaWMODaYNj+zI2fHjFUkbQlIrLDCgl/zXani/Wn5FCmtrgay5A=
+           code : |1-
+            PROCEDURE ModifyProgress(gtModifiedTask is a GanttTask)
+            
+            // If the task is a cumulative task
+            IF gtModifiedTask..Cumulative THEN
+            	
+            	// Restores the progress of the task
+            	gtModifiedTask..Progress = gReferenceGanttTask..Progress
+            	// Message to inform the user without locking him
+            	ToastDisplay("Action not possible"+CR+"The cumulative tasks are automatically calculated: they cannot be modified", toastShort, vaMiddle, haCenter, PastelRed)
+            	
+            ELSE
+            	
+            	// Modifies the progress in the table
+            	COL_Progress[gtModifiedTask..Row] = gtModifiedTask..Progress
+            	// Starts calculating the parent cumulative tasks
+            	CalculateParentTasks(gtModifiedTask..Row)
+            	// Updates the information of the Gantt chart
+            	DisplayGeneralInfo()
+            	
+            END
+           type : 227
+    type : 35
+    controls : []
+    code_elements :
+     internal_properties : CAAAAAgAAABctauKT9bsZa6U2ep4q3NV5Es9priL5AC3V5DMK4WDCV6TfTO6U+RnL2pSf+ceWu11yOhPBLRHveLqLDQmmLadeNe8tFgxdbQ=
+     type_code : 89
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+  -
+    name : IMG_Closed_directory
+    identifier : 0x286e69210b49a083
+    internal_properties : CAAAAAgAAACgsgvKZIxykSDyTkWT7JtKlOGHRA8QxnVdy3I9VS9jDRdOglGh55cDi5Iez0MwMaPN9xIbSwSx1Oz8/uhSpYHVhwRHYmaG4+WYI9OzWMEtlLx6nSSFHbN5GCHw4oDlIbtHGI1tALnZPNgmWiBVLjGOJdtzAuJfWTdu72pndB8pWa5LRLlMN0hl3FFcDXtUxXI0QTanevq+NLkPWPotIlTtjF5tE1o7+k+rZqgN7d/SMfpHDDjFWX4uu9FQ0jZO70k71WvnQzMTWMtYil9eJqGVwjnqp2VKbT2E7w7AbKCVCaB7/5VyfvJ5GJ/O2HkBTWqmdSZVRjRQQoN38tkONuxGtvNe2D40TJZAckw01PgetDdWYU3A7YjtuvabQWmNXbTZD78Y/jMKt7hYCuP0MPM5p5RXYj1gangSebbFYx1m3x95fVsEUgjUCVSYAiIVmS068se4QUXEXmekuiybfn1drAQRKWwy9KgEk+ArG6DgN1TsI/Hh8eZ+jGUZVEQdsJOWZinGq/6AJfg2XEs1ynE+l539y0gG+S3UhUYqoZW2dunPXeDDYXBrmrDCFxqnNZQvN9MaOEbob6kh9KCNUN5gD2uU4K3jVvGE5nlMlU3r8iuTJaS+2PIDR+1oD+ec+xUklALAQpTkPHptluKqZcwaKCBbIWv/jrrRuTwPBm9Ks6JxzBsikHx3FXLoPX8U1nOgiPBqJQJAYaJ+4p0W7cKO+lVKyMEUpmku0hCdJSY0lY8zeCLKzUrdROP0XZySToHuB0WXKTJwE7r+AzKLyjJrhLSNqcNE+E0UczBHqfn0+mE+nJeq9TahDnmHjKNMvQeKgmtQc51FltRR6L32TFNL+uJCueocca/LRX0q6wpzKuphuusyjY6K5ZP9EfeC/1w85QvdNBD1zXVFd39Hgh9RGOz1lCACb4TcbP81CnFhdMaesD2WqaBQieOkHIoCmq+i
+    properties :
+     x : 1046
+     y : 6
+     width : 22
+     height : 22
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Opened_directory
+    identifier : 0x286e69210b4aa083
+    internal_properties : CAAAAAgAAAD2YNlgwpogQ968lDNh7THOIZLno5vHDnjfycYs45hLFulopvvvvvNvv5LzI1FMQan+jir5MQjrHM6QqiQoEe0vMdpPWOD+6eVKX0NTIuHFkrZgnSq7Ce0DNOhDDdPOBhyi0S7aL3pSq2MFCRckPzLXTPzMbc1KYoIphrH+04QCHv0IYSD7lgk06wQXIG6pk4cvHiVmESMDDbwMrev09Zumw0+MEiWY5elyKZPuQSC7/GPG/SnmQAXRvNBT+QeHiGQo+DC0KI4CV/w95bJ3qzKcKxxHVCKhlNDzylUfXVHCWEMaeeltVN+M8/5xP1wXYhmrbAvyF/8HMfxu/QQva60B+4cRxAKjDON3CCqh4ZSFUey9vRX5wOh94uPpIqc4+48fHxsjCAxXDJOeVq4fIMftre84UTbNkLKhgqb2cBUQqLJOePajRwMwtKu3BSgI2KQcBHER1HcJOoOKsPzObxTeErCeSqgWmImY0m9q1Ft8lXDU+78nq38e1Al9oCH1qEam5tG0sP2hBJsqLq9RqNtoB+80S8TcTpo9IXFxamw93a26HxMeWtKaT2kRpOKBEh6G7AdUG6+eW3idhZfuCCnf6u5FZgvD6+OIoHgxWYqAonlL3W4ohqw3vTEsZc04X8VyZFJznfE7bXeOz760IJjuCA7JsdtffswnbTjF7A8KO8AxjN2MHvZ5YQjmJUfW7AH4Dn7CBXK83yL4bAGye+SY5ic0XH4V2fIrqnJ17ejCO/v5RtYGuTrXRNmi6WAk/GsOgVj0zsX9HrGlGkuc2f2gS/NcSmzjqdznZiMkXrSjGxCNw+CTPC+YMXya42L/2BSpoYqxBLzumQ04N7z1V1ZE9+VdnL3BNA5wvPwZutFKx2uIUUKRTlU5UgJs2I5lsv4pMF4Ih/Uvs3sfUUoG1fI6OejxDbk4o8j0SQrFijQ2LHPV77co39oKdxFSrmTYTN1w
+    properties :
+     x : 1075
+     y : 6
+     width : 22
+     height : 22
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Milestone
+    identifier : 0x286e69210b4ba083
+    internal_properties : CAAAAAgAAABXakXTPqTuEcg3/QqD5JE46G5QH5A5jThcAVAk5cC70A9odsm97uwUwGru7hnMA/ZQbP0tWi6wR+n5fPoTNOg4hsFy7cI6nhA0Rk2jBEwTSG+iulEqW6vHa7hLIzKzNDiOY9J773liU/DXAhlqr8kc3h0MEZygHDTdwMAndroRIMKcLImR90RQTmhZtim2sgHZoSwR2lhZ5C47otJ1EwElec/eCnlFZjYmHE9RdkjZRZf37qso14kNmD/6VRFB0ub2sbofkERkQ1yBVuBHJ6z8SN2BFcFu2iVEkILGsl8U1sE64z/wWSmzYjSpKSQGntBgFPek+lA8W2VP06UEAGASeS9uc3lt+8vpD5QOaBmNq6tGmvD4u8mZpCIJUXSUWMElwP+KI8uklcbzVmsJdU+lbF7wfFZ15irKVZ9pXyrlmXrG44onVXbGwYnKEfjOqW9Wd1o8DU1MCI+/xo/Qno2yiehbpuwXqP8QDKSs5iOW+bXrrBKV4tcnuUkSK/Z/lLq7QRS6iT6x1nCTtCqKnNWjXd4Fa9BcCa5KPKPRc0gvMsUXYLHdi12GuMZwXjU+9Fe61eI74/syKfy7NJjq5fS1p+dQstOUG64ucNzcpdAOe539FHxzUaSuG5NQ9yLxOpWlVs/umu7DHCOOBhWQ03r5lXydNA98hQM6Lj7OFw081PzQp9bd9M1Q/l+NrO9vgT43qbiy4uUVQ03j2En2K3dT0JSfM9tzPsAL1NWKOtHhXqV4dE1sNENk4M2z7uX93adGHNMfO02UnVc4FWGJT96YiJUZt/DxMEI+tvKkN3UjqTSfL/ysz+r1kGUvG7hl0wMtm71B9CDlrmxZcrWmLczDf29qXptDRg0xs2ZB3OTUZ66zK555SXbKN8wvPC6+IHWpLkgDglH+DRsxejPvAsZlpe5zyAYXK+R4DL0qZAzj5Pxlq8h0CUo=
+    properties :
+     x : 1104
+     y : 6
+     width : 22
+     height : 22
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Task
+    identifier : 0x286e69210b4ca083
+    internal_properties : CAAAAAgAAAADJt/lvZek0gGSUoErGjMAqScVkhm9hM8qNxD3DeEGKR+HaR1WMreCwpmCOqdJ+8JWXuSqI79k3Dn0WuFsi8BX6bzXWzXnB9+EM/AbVfwEuJnCY4xEpgmswnneriBBe4aaAsjsc1kWXPxBHpDZcQK0514amLGX9gmw1rhfAn+lOMoI+D5l15qcrcoX+praJ2JiuTY5P/nmWZuKpuadfoIKSRpb8bqnQeiDX51ZKXgYFOD6o5Oq53qa3WcmqvSNevPMBqKV/r9KzV2bzp6G+0ALuZyTgi+fAydLPTx9hBLkS6obwj0ZOHKvy5MkaNzqGvPdFRb6umbxd+SCheyTN+rBwu965Y3FcbWmXcRNg6sRWPWbdkCyA8Wo0lsrz7/I1PHo0mBoX577hib7m9EZ1jtGTTNKctWzl1xFIa2YLN19NEGXjHhGqcKMBJhAKjqp7XVJzYrqDYBnqpPa0vGjp/MCCd9DXiYsTyVLPgtSaDMRH8AX6ftb/PTmV7l4Q9FW4Au6ysj4BoCwRiBvQvrUezGfOZRXvlWvfprFUZKXMpJ82VP8dcHbe7kBPIJ4HtncOwlsgpA/VT6POj1iq+sLJsr07JiN3z67U6YhsDhk8DzRTGC/o6FRRgKF4aMcHsaXpLtwN6TSGN/PNoFch/aKwqdgglM04mSeQ3dS0tMqCcxaUlB3iEBruxSp/N3ODQKEfeyBr7TE8/1qQxNrNJBjY2+0EP4mCmtjZqdiBEecBLuuLErIFzGM/jf7Fc4fabmMjdmWQG++f3H3q6V8GrqXSWmZCDfN4JsJUnE+AuWDQXqlUhgfJLvrkSeCLYqnT4lwlg1jxIkakgP0m+gKGdBVkRzpFZ3NT1qXdtw0wGN1mTsnS2YpuEyFbXZv/UJVCfmBH75pf+vGLMB2TRy2GFLsVyyMKamLLZa5jQM/8htulg==
+    properties :
+     x : 1133
+     y : 6
+     width : 22
+     height : 22
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_AddTask
+    identifier : 0x286e69210b4da083
+    internal_properties : CAAAAAgAAABF7Ul/wVaaWNmkB/dCuP+PUxfzjqvDPj9QLXtkb8JZFOwP3Y2bd+UvjTDQXDBwRfQJBRGYl+FnfSGdmYv+g7aIATYoRZEETZeZFT1e4SS/8yp/VhtgBv2sAQBxmIJoocV4wETDA5mipMQABaSjEoBM2FPpuaxoSX1xXSgjoXSk9flquN/YnKXgtHDknVPRu1+ueJXZql6LyYQXWNXXW+5Pv7f8gfDloEtzbCe7+SuULUDEUb+TcCk/Ksy/p/gRRriBHHQjKSno/CVgOyf3Atm4YUYTw5Eq4SiO+jyAcjkZelRYejHflXRreQXNnp5UVunGRQvGq2cc5cnQFUO2opTCB/pdSi1IpOIbZTkPZFHOv/VktUqbUrhZDgQ27iUVIfO0wvmRhjG5kPQehT4l5By2wLYPoVmxytQrKPi2QHPnQhVxDVyM4KFIuggmdc+IiNnddb7sWyYG+003BeIiolmk7ri1ZAkcS7clC8iy9W0GrWEd22CxLdY0o8WyEx3zBt7n75Ufm46gt5xftkzcqqfXV4fapOoHtrWjvt6kIq+sjyNFFruqDKyQ3bOZa0Yk/RR3l6R5S12rgfizsasAKWkzAqOhk/3iBZG5oocDx/5WD98zzuv9ymK5pDqwczeEC7h6cCHP5B8fvJt1ae2e32bRGDfwibe6uSjxepeEds4/d+lJdWxnjLsvjuW4pBdSO6jAta6m83E51w2B/4/iWcwuD5DFA9vHp5uDF4DGShTzv692rXIKmyOthhNlGrmhW2l3Qpc0qkXvgoV8ro8ecBl+QdaITyaFjxk2NlIJ2O+flLZ5s7UZWI40pCoucSPfzZZcCYWhWj9V6qHJ3WCEt0f7KL578hFfEswwsifcLPUaLK73bGD7cbUJitqfiO2AeNHYtQF4uqPYCoRG3OtLSXwaDXSq2f2X6UkKxVLN/BPKnAT1hnphinqe6J9e9P8Q9LbAB3fJweKdrWZSrqYbcKcoI3bZAkU6Rro92SkOPkvg+ZzO44AY3eERFrfaArLxs+tdRMQ=
+    properties :
+     x : 126
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Adds a new task
+         AddTask()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Moveup
+    identifier : 0x286e69210b4ea083
+    internal_properties : CAAAAAgAAAAjV8baKhq1xCepyOuFIJfPNazc2Ka7e13AsvaAIDfq5dQmo9meCLallGcJaBbhsZicomkrETZPUYArig+84ZNoijbOSEo8fRMiZY9vz31y6VRc4aeftRi5HXfPKgWmSz4iFaTPCGxdMAnEDx1E8cVo7ag1/QwdUPBA5nAIx8tItgUXgvygATycXOb8DhqJ2ah+THrXP7/Fxry8aMJjQgitGyv5wcNPaipBgDSB/8DfezPyhrVXaeXlTQtgzms4YgIaTXxsZwMOCPI+4OsDEz37qmrdQRVHZovCNRhSNrKJweuFEnmq0sEQKonNUCAIcUd3ih0f3YCriIPW9TUOg5JQHIJmXb0h5K6eF0Jf68VLel4niEIqZiP++bAA65JwVsP9SUR8zLF2QV/pK3XcjbFseAdZ9VG+99FGAAArNSVhxMqpdbmyVI1p0VDyBfZPzc1TNVAArNFxc1AnegmPM5psPbxr5pjCvEYHvv1ZoPuz/uZdQ1yebaHulxUlAi9qX3ATsO8ClheohYL080MoHPQwzqC9ZqletOOsaMfXiV91VziUvpqzYKBJUkj2sElMepxutCihAle1LmEfyTp8U2iVCptYvE8JQZSiOMh+eKBojJSXDoHLXtaYi/+mnDZiGB12ohCOf/4TBRGTtP6+/ARlBz8ZICiRpSJF5hU0DYzTv18wNlvKA2Pyr0me62xcH5KUSyh2TB0+XFwIF3BMAL0JJxZPtotTRdq15VQiHqTTzHLHsJ072ufAGe12HOM6odQhy4UMViY8oDUZY1n9WtNDAxTlHqUS+iFiKxkkzSUf9VFaB8EQaasUrmUbUIDKvoCZxG7XTs3XL6NI6YpVLoWepfyJtUGAIeWwFmSkiGy5qzZXHVHHDXddnzvC9t8TbUOX+GF89c3jlcNEYbSiRDy3kOe4WDXHNyTDnYCaYEky1gJdDAMgbZdsUbcafBu/jVEOFT9chyqW/k9jRt9eT6G85TPUf9M9ufUxSHrmpqPK8hs8WZRT5np2V/Bs/pUGWPVROl3nPet7uDojPk62
+    properties :
+     x : 6
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         nSelectionSubscript is int = TableSelect(TABLE_Gantt)
+         
+         // A row must be selected
+         IF nSelectionSubscript <= 0 THEN RETURN
+         
+         // Move to the current level only
+         arrLevelSubscript is array of int
+         
+         // Retrieves the parent subscript
+         nParentSubscript is int = TableGiveParent(TABLE_Gantt, nSelectionSubscript)
+         // Lists the children of this parent
+         nChildNum is int
+         nSubscriptPreviousChild is int
+         nhildSubscript is int = TableGiveChild(TABLE_Gantt, nParentSubscript, taFirst)
+         WHILE nhildSubscript <> -1
+         	
+         	// If the browsed child is the selected one
+         	IF nhildSubscript = nSelectionSubscript THEN
+         		
+         		// If the selected branch becomes the first new child
+         		IF nChildNum = 1 THEN
+         			// Moves the row to the top
+         			nhildSubscript = TableMoveBranch(TABLE_Gantt, nSelectionSubscript, nParentSubscript, tmInChild)
+         		ELSE
+         			IF nSubscriptPreviousChild <= 1 THEN RETURN
+         			
+         			// Moves the row to the top
+         			nhildSubscript = TableMoveBranch(TABLE_Gantt, nSelectionSubscript, arrLevelSubscript[arrLevelSubscript..Count-1], tmInSibling)
+         		END
+         		
+         		// Selects the row in its new position
+         		TableSelectPlus(TABLE_Gantt, nhildSubscript)
+         		
+         		// End of process
+         		BREAK
+         		
+         	END
+         	// Stores the subscript
+         	Add(arrLevelSubscript, nhildSubscript)
+         	
+         	// Stores the child as previous
+         	nSubscriptPreviousChild = nhildSubscript
+         	nChildNum++
+         	// Goes to the previous child
+         	nhildSubscript = TableGiveChild(TABLE_Gantt, nParentSubscript, taNext)
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Movedown
+    identifier : 0x286e69210b4fa083
+    internal_properties : CAAAAAgAAADys2bk+AGRphfjjux5stfq1GnEG+g8PqjaRTeo7cb52+vZqo8Sv8ym9GBBLKkzSL3KcfAOVunQPfJSnhSjht/YMTOGYPxXsF1RU2jCzb/5hUIlIVLsmEnUk1K2W4n0d8BU3oSoYUoFu9a17MntGjdq1cfuCLmPR8eriUtd+NdKqxAsL66JoMuPZ+42R9ojiL+odCOSrNDo6Pn1oU463n03ULVSZtHXp3JbyEBKR1AXbNFla29RvjgvDSzgxBWDExXSGLM6D1SU6FFF4Ok1i8CkB3j3zLhxUNj93Dz7IMnFE8uLLCMxy8Y7KvwWEyrF7IuDRMYEnG6yiQ0J9BXCqrJhIgqevtcX89myz9AqquocO5LtaYJpFefhpBLwCN1PhP3WVGr4cJQ1U6I9o7LVOW55x/3kwlQujk1ocL2YxNh8MWpwmwxs7nIkIzi4yG8MWcLZU9QdrrW9ylodgSkT9nOERQI9NKrOzxjQGydWdYAOnmGZ3jEbaJElaTUNAz0YzrucsWJzeh2Lz609RNl7vt+Kq5QrGzVL0i6W2QGYPjdHr24F5tmmGsUwRhN++12fdRWRh9JVLbUlnxTw08sZc7LIAPNkXFe2k79u25OSrolpeb69Osip9V+yVZcwZ1WrBPj7Wq+pFkalRGIb3fheUN4x9juWaSkkziIOj7u55IwXPZOWLIzgP8kpJuj0aKhnEwD4xl9fxb2bUvHd/vlrVvoIc/jRhzBw3jilRb7cWo4m1TzacoRWxqGZIdGc6lfd+fPjlH2soP/gCta7ItBMgnYZl5fmiQY7Rxg4orpjFDhDz6gHeNAUkCe7dWWP6y8oD7bFRPY08yN4/vAnqz23kTBsDyDFB0pELzNsG0wox/oTA1Qbta91e9tkGFIEe06uYo2sSrLWQQH/extaoJx+Gst4YBVaiSedggx7YMFQsA4CiUBnKr2rWTyFdOoFQDHmMmmGUuLvY1nptke1/32grDywdhw4aFH0SRRn5j8RAK3qfbBeqd8hpn3a2vfp4RP0q50hXueA
+    properties :
+     x : 36
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         nSelectionSubscript is int = TableSelect(TABLE_Gantt)
+         
+         // A row must be selected
+         IF nSelectionSubscript <= 0 THEN RETURN
+         
+         // Move to the current level only
+         
+         // Retrieves the parent subscript
+         nParentSubscript is int = TableGiveParent(TABLE_Gantt, nSelectionSubscript)
+         // Lists the children of this parent
+         nSubscriptNextChild is int
+         nhildSubscript is int = TableGiveChild(TABLE_Gantt, nParentSubscript, taFirst)
+         WHILE nhildSubscript <> -1
+         	
+         	// If the browsed child is the selected one
+         	IF nhildSubscript = nSelectionSubscript THEN
+         		
+         		// The next child is the destination child
+         		nSubscriptNextChild = TableGiveChild(TABLE_Gantt, nParentSubscript, taNext)
+         		
+         		IF nSubscriptNextChild <= 0 THEN RETURN
+         		
+         		// Moves the row to the bottom
+         		nhildSubscript = TableMoveBranch(TABLE_Gantt, nSelectionSubscript, nSubscriptNextChild, tmInSibling)
+         		
+         		// Selects the row in its new position
+         		TableSelectPlus(TABLE_Gantt, nhildSubscript)
+         		
+         		// End of process
+         		BREAK
+         		
+         	END
+         	
+         	// Goes to the previous child
+         	nhildSubscript = TableGiveChild(TABLE_Gantt, nParentSubscript, taNext)
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_DeleteIndent
+    identifier : 0x286e69210b50a083
+    internal_properties : CAAAAAgAAACsm9Cp0R76jDB4XU6Vgha+MSYNwoVBn9Dd2BBAoUnyBuHbbSWphOGjYCefUcfrCs/mHMMPBVNT1q8teoJsAa1MFbrL/iI6PESTkjOwsz5K11OmmoqfsABGdMvV6grLxd6+iTP8Gg+vIcLZzhZO/Jj89HcPlVqgJgCsqVRMat9zozof8JTA0TuaQR7hAFMvcrvPN7N4kEjBQTkgk/AoHvZzrgYVpm126V+oimsRN7/fW8E8Zu0QSticc3o0vqHd4RQ5zfF7vMaEre25MKqttpmSdY0E4HxEmIZuDVTHTsdl4hAeyRmTHbwgwSeXMUhfA1/l17ia3khvhTYyPY/Zoi2k0us8UXrxr+AU8mcGqZmwkZgVj+17csb4O9kHjxIG4bZHzhJGpHGX8XVUcQTI+0QmIhUq7oRagROWTaqvHLPfePmF9oowYtGafJCW5bY8/m7x1i216yBsTPVkNy4sDVYi6XFfgF7QPPNfSF8z9ic1JGYZzsIJ1CZQEF7UgzQwKZllmTaOuWczVO6q6GI++VUv4uxSPkJUhnBgYX15zfpe/52XszyIljlAcre3crFllpWCBke8nzu0vs8FAosVJyQ8m8SxDmQv8iz7zyJ3cyzghBNp4zNmorvv3eQepRx0JPoHJ70zxY+4T5lKHX5Rl43MSkmJVn8ZSpiD8JS0ZEngpHLuEUg8GYUgnnw1bQZZcAsOcbIPadE78yrumKLShhbuE+a0/9tB2O3hjF7jncWn7dg2QjIpTXn3gNsTWL2KOuLIUPIXh8C7x063FkOza9keBSTnGvdhpN43iYD3QbOsC12e92vqJ/xtS9TbRQineU0H6Wki77F4WRk66CmAoFhTzqXFRaL/GJt2ooAF9CCKOjQ9L24KkSy3vodDzxtf4dNpi2Dj2shH0YoEm0vc0CUeYbayhOHLe5gL3RBXjmGMAv5wToYNH2HrNnfZMrDFP80tqu8ppu4L/AStf6A5qg2EkR5HgEpqscVd6X02pEUwaA7I0lmLYKi2H/4Jh03/24t5Hof7NOTnW8qK1L6gD7077QypNP0Cf35HFsq9hP44gu1B9FHkNdrapqL+XwpQqLLiDS+0wjZPZhpQ2Rom7AJcsjCfVA==
+    properties :
+     x : 66
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAD5O+wnryydxlHaNzhkb65/eYsO/FY3J7Oh2PM+eFVJ0UtegKCNKt2RUpnv5vRKQ7xJvDjk5gplucFQe2wB36tH7gYnSpoXx4krZZUDb7mNFZSOV15zqrnYmztIo4DoSLOy7rJ4Fw1o3JIkxZ4=
+        code : |1+
+         nSelectionSubscript is int = TableSelect(TABLE_Gantt)
+         
+         // A row must be selected
+         IF nSelectionSubscript <= 0 THEN RETURN
+         
+         nParentSubscript is int = TableGiveParent(TABLE_Gantt,nSelectionSubscript)
+         
+         // The row must have a parent
+         IF nParentSubscript <= 0 THEN RETURN
+         
+         // Moves the current branch as child of the previous branch
+         TableMoveBranch(TABLE_Gantt, nSelectionSubscript, nParentSubscript, tmInSibling)
+         
+         // Selects the row in its new position
+         TableSelectPlus(TABLE_Gantt, nSelectionSubscript)
+         
+         // If the parent task (that is a cumulative task) has no other child, it must be switched back to "subordinate" task
+         IF TableGiveChild(TABLE_Gantt, nParentSubscript, taFirst) = -1 THEN
+         	
+         	SwitchTaskToStandard(nParentSubscript)
+         	
+         END
+         
+         // Updates the values of the former parent task
+         CalculateParentTasks(nParentSubscript)
+         // Updates the values for the task
+         CalculateParentTasks(nSelectionSubscript)
+         // Updates the information of the Gantt chart
+         DisplayGeneralInfo()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Indent
+    identifier : 0x286e69210b51a083
+    internal_properties : CAAAAAgAAAD8JDQ/NnhcJDVsqyVSSbZ71mlNVpYxA4TuUflRsEzGQVHn4zEIK7D4VD8FXzoErrnPqANejx0VABhOAdwwoSWqhzjUbs7k+kDdUvVUVXcriUQyhGhS+kCphx+MzREcC3AI3imZ59ocBiMEi3p1LO+QNL/CQ7JjXnI2gRN2GeVqCjJA9ZP2nlj5dK2L8JWkXerWPuqA2hHyccKH6Z8GS84DXQ9Q40vR4VYsI8iZmwUxhg91kgV3nU1w5ND1ZO+imOf7InX2paERqJIEP04EmUca3s9rbOiuApN2wOaBdLCMYPAZO49SZTYRZN74GJ5+WoVXDV2KQCatsEqNWXCZtQqdNnT8ukHs3rGD5xtdXmnTiBCXrpeayh4G3yp6RD1/X1wR7r9mlNYgyUqt7MqRsbmwxAQvMXOOvlV0VM+cSJrRJNNPHEjaaoum+azIC6q/rCkVHvsx7xntKscSbjJVm9l2R7Kd+xeCoLiI1LBZHq7op4J9VHBkYN/hN6i0NQoneOCyjUsaCZ4ClODHz8xBRnehmYv+5MxLsjm0zAUTE+zJ0xp92sQTHfPCSnG3Ccz16QkdKbVs5od55XwjYa4hUoz6Zwrm5WdmnjR4ffsUm7UGAvicXJteFiLXN5slvJJbeAfe2OA1mhlUylhqUgcVR18qfIjOnLrGwYquYCHUnt1CNFZikFXUQX8zSg3nTL3BrWpy62/YAa9EbzS/j9gdU5Q8laaA+jpuiJ22eqvITzR9WK5WwS2OC6GvonAW8m3oKQ4/IBATuRt3AgDigdzhMh6cqI9bNf384yXo53IyU+VDa/FrGbACiafwfFDPiH8xIFxoGAFjwIzo7aAL+onFCdca7OW9Zx+mwS3UgLwrpq3mscAIf4bZZT1eYS1K8JA50frY8u6FUiXvMu/FUSvWhE50BdXfgTzCQZMay4piPg8fo6/AU66ZvdrQSRj0nqxDQXacTnHX4GeH18aIoDV0evEYeMt+5Rg1l5Gy6A9IDgARW6IfMF+X1YepwNmQeU04dmjKDXsxZ3MgYNGNhzPw8Nbn9HVWQ8qMfnBUjtxf6uZnpbSTXw==
+    properties :
+     x : 96
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAANgkADdfgm4wBo6Vv04PYldlhaaHerNJGdZoQOykXTaWzBcUnQT8UTql0SF3mY1UznQ7VLIKHGE2itnfKjUzMEy7e/Y2oZV2EXGGAhS5VsE7FeC0mbac9aywQt68FtHMYv40z2uDkpQOj6pjEM4Q9b8qkr7b+SEyg/nPEUt+GCgQ==
+        code : |1+
+         TaskBecomesParent is a GanttTask
+         
+         nSelectionSubscript is int = TableSelect(TABLE_Gantt)
+         // A row must be selected
+         IF nSelectionSubscript <= 0 THEN RETURN
+         
+         // Moves the current branch as child of the previous branch or on the same level (if the previous branch is in a lower level)
+         nSubscriptSelectionParent is int = TableGiveParent(TABLE_Gantt, nSelectionSubscript)
+         nSubscriptPreviousParent is int = TableGiveParent(TABLE_Gantt, nSelectionSubscript-1)
+         nSubscriptNewParent is int
+         nRowSubscript is int
+         
+         // If the two rows are already "sibling", switches the selection to child of the previous row
+         IF nSubscriptSelectionParent = nSubscriptPreviousParent THEN
+         	
+         	// Retrieves the task that will become cumulative: inform if it is a milestone (and give the ability to cancel)
+         	TaskBecomesParent = GanttGetTask(COL_Gantt,COL_TaskID[nSelectionSubscript-1])
+         	IF TaskBecomesParent..Milestone THEN
+         		IF YesNo(No, "Caution: the previous task of same level is a milestone and it will be transformed into cumulative task. Do you want to modify the hierarchy of the selected task?") = No THEN RETURN
+         	END
+         	
+         	// Moves the branch as child of the previous branch
+         	TableMoveBranch(TABLE_Gantt, nSelectionSubscript, nSelectionSubscript-1, tmInChild)
+         	
+         ELSE // If the two rows are not on the same level
+         	
+         	// Find the previous child on the same level 
+         	nSubscriptPreviousChild is int
+         	nhildSubscript is int = TableGiveChild(TABLE_Gantt, nSubscriptSelectionParent, taFirst)
+         	WHILE nhildSubscript <> -1
+         		
+         		// If the browsed child is the selected one
+         		IF nhildSubscript = nSelectionSubscript THEN
+         			
+         			IF nSubscriptPreviousChild = 0 THEN RETURN
+         			
+         			// We know the previous child found on the same level as the selection: list the children until the last one
+         			nhildSubscript = TableGiveChild(TABLE_Gantt, nSubscriptPreviousChild, taFirst)
+         			WHILE nhildSubscript <> -1
+         				nRowSubscript = nhildSubscript
+         				nhildSubscript = TableGiveChild(TABLE_Gantt, nSubscriptPreviousChild, taNext)
+         			END
+         			
+         			// Moves the branch as sibling of the branch found
+         			TableMoveBranch(TABLE_Gantt, nSelectionSubscript, nRowSubscript, tmInSibling)
+         			
+         			// End of process
+         			BREAK
+         			
+         		END
+         		
+         		// Stores the child as previous
+         		nSubscriptPreviousChild = nhildSubscript
+         		
+         		// Goes to the previous child
+         		nhildSubscript = TableGiveChild(TABLE_Gantt, nSubscriptSelectionParent, taNext)
+         		
+         	END
+         	
+         END
+         
+         // Selects the row in its new position
+         TableSelectPlus(TABLE_Gantt, nSelectionSubscript)
+         
+         // Stores the new parent of the selected branch
+         nSubscriptNewParent = TableGiveParent(TABLE_Gantt, nSelectionSubscript)
+         
+         // Switches the parent task to cumulative
+         SwitchTaskToCumulative(nSubscriptNewParent)
+         
+         // Updates the values of the former parent task
+         CalculateParentTasks(nSubscriptSelectionParent)
+         // Updates the values for the task
+         CalculateParentTasks(nSelectionSubscript)
+         // Updates the information of the Gantt chart
+         DisplayGeneralInfo()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_ArrowExplanations
+    identifier : 0x286e69210b52a083
+    internal_properties : CAAAAAgAAABZHnoql98EABlzonC0vJHO1pfirv8xchMm1t+Q6utJq/xFPvpHA4WzhLNTcLWFADivr1ehp4o0+3LIlCGFFerjE8Wnpsf8iLVDZrMO/OOu2GAYZ0OZ6WZSGTuVhLDj8nO2xoWOMcHA+CqwoBA26mPE8fs5iLvJPFzX4kOqhGAcfMMu3TCtqIdztCElGgTabD/WX5kCQg49us0dnsRbxLDFKTC6HsSalSP1XZYWa45p8wszWxjKTpizsUjM5WF8RK3W64f2XqUu903amCzVuPyWrO41l0CZD+GFResc0OgYB+ELvUl30mQXyARy/N8pTBOJLYRWJsBrknXnFICUyER7J8yWSa6m3hledF6umavGszfcclyocXZoIb0o5mErCnDwmizv7ioG9J2TqasPWwmyhTTZOUDy/bega9+1PusV9UQrIb7+5iIGWc2faP4FhvAOVSKmiKQb76D4CekDhaatuhFDrPGRndu6+NSxddfRqxRyJGBe9nXB2CRzvf1wvmISLT5jcOVak4FoXFBx5zMuRWaLhAqy9Eje9kw7AA6btzGgloZoBzDqTEphwRf5Onuyx6FHaza0XFxDexT4NwSXKKg/e/aATe0kUSEK7zCNWfgnYSp0VnMab0I6usHOsLDHnJ6OBAswTJuz
+    properties :
+     x : 186
+     y : 96
+     width : 837
+     height : 13
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_AddMilestone
+    identifier : 0x286e69210b53a083
+    internal_properties : CAAAAAgAAADRoeJV0ggmoS0haQE+J9z9lZD3Yq/p4Cki87RK5TdGLE+JvAflJ8qH/a5omryA9RZGKNERif7b52a9PFRQxMRGWjCpxBAiOLophBnmFYWEBQpiRg77x55uykHr1VHXtIBsTMO1stMQYb/ckjbGgM2fFY1aD/MJ+FyEs67ChVJoEiUT00vNclQGikkiaxjaxjvztnUFtpS73V+Qa11ExSgda+1bYHAvSxfySAJYOsoFOeBy7wtx5An3DhXbpQR0IkfvITgMf22hqDX7kbvS1Rw5NQqfOwunenCIrCNQFb3ejQWsrePQ2ZmPWckz9Aw4OsiplHzMLmlt6MKGJGh63C8lwS3Dlr/+EFM55lF0UdalW7iEr7orCFJPs7RoaTJMJU1wJAktiJ95KEVTcfqnv+9kSAszsZEHsSbuA8QP09bQ35w+INdOVUo2oc7OWk5JD2EimPC7rLeHKMHJkEBqWPIsJJBkmmuf8zqrXA0Kb+ZF7xkz+11opl3t9wTr9WACaLtyZrWrWa2ggl+UYQd6jjeDY87ZMgD8xUyg3n1dHpquCyt6GS/reVbmbN1m9xVf81W+7BcYzQKCgz3ktlVAJqEc9oTTM76ZgqQNHSBOE8GYqRtl9pvDt8LwsW4nfZ0mUmXZqHk2w49FbsYyTWoqOetPEv3PAu3yLOPETmYOlwDifRgFhiUEBys0cGgG1sOvccadRcNH//nqeZqlNpUqg4QgiGQsnH/2qygCGvI+M4P3ZRWcB7pQDjznNHjHpCapN9AMhBdKtZ8k8ZKsB3uI2Yv14PwTEHwKf4obFiX+87oTwj9lSH653nQZs9s0sHnsXT9HokZF2u4zw0f0uSMx7RyqtTizJsKo2+LKykseLo7ZXCYzZt/Q5vubJkT69vDygqv7tASNPn2JZqFqT1FxtXxcCeGyuj+iY5A/Q7XjjBEs78VRCnTpF34ZKgefwkshRboWeNJhSEZPDDaShYFw9RO+58DPXGUq6kCI9cvpU4raxIvElw6sTfbgO4BgGgXeG0Xcc/tANY3K
+    properties :
+     x : 156
+     y : 88
+     width : 28
+     height : 28
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Adds a new milestone
+         AddTask(True)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Save
+    identifier : 0x286e69210b54a083
+    internal_properties : CAAAAAgAAAC9uZX6vLpluetfWsCqa6Z+f14xYJzxNRe2TAxoJfAbH9wXxeWXHmFMR9RQhgxATKQFe9e1vh3qxQRuNm/AMuHx00+DB7XUA08kChwhdeO2TyaVEys9cLlc9+RJUvzk8C3Abn7F2enOuXDMkH2ezEJxvV+fcu3VlVm+ppoOLaBJn2y7056JwG4v00XKaGSbk2t0CHaN4IGZO7bBV5HPxjj8VBbF5ecFjLDe+1hT9qS4M0xg0CX/jr+3gVUp6uC7n8aro++qJJ4X5o0eXSCxMx3X8zOnkpvPah8R8IjmDYkon1nWfhYHDKjDKdqWovGFPHPcSn/8KLNvncG6Rf1upmYFCVO9kJiaYz73KIXQsZwSsV0gP8hk8BnA1qVKlbeI1CY/FyKwLQ5Lm+wCWjuKbYvXdJH1Z0gDhY+qV6MmetL+DvnPR4Mw61hE1xn1R2uTM1kxG7TKDuxDfRvvVHMsmVJ6um0p+M/9iXB4L55DaBcQ8o+gdc7pC+AYvNTXzeDaS44kUK66ZbCf1yqw6uf6avVieOvHOB+YdUvi1S1CldRlR4g5+Ikt0ks+VjTWKYnVfkPhBrq9KabzDnYowFiS3chrWhQdCadrc80XxcgSwhT/NO7Bcy0PdGA0JcFWMDC1//o8pfM8ci2hCkPDRrDwOCmba0Inx4cl9rQlP4dT7R73X3p35jUrwSaZRbFLLBj0dQpJagIWIT4K2577LLv3EjCUWrFYxnSeiiN9chZwwkFXC9NvQHa/ng8teCkhJ5pRtWThydxHxfvT4pVn2lADfAWfZwhVJsPciza/ME0d/YBpdk5/kPaI0TcEYq9901uBlkMBXLbMlytWCyz9Ig/2nxgJ8wZnQ+GXbKeptA3x7RWXRuUA5017R1PxQFiRWYdDzLsOiGtMDyTLo2YnFKNtTsSjENyYOlxIGht7Q9sNZVIr0zv+UU3bFAB1q6N0Cpoxj0WC8T12Pnvlf/qeeV9Dv/yVn4zzUCxEVQgno7+/7uRJqlmWC9IdpFBtdl+Wz1FQluG9aEOBQfKeD++QELwk
+    properties :
+     x : 224
+     y : 6
+     width : 103
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADvbyfATkValC/oFaulpYyw8MuaFRHjS2Kr3GYzw31EvnX/l0XSku1wgnBCnjnXTXffUBDZ5imKP93YSHy7JLiQjqgeEuG4/Wb17qjpGR/yeLJvFpp180RfYTai6gf5kIhEXn9Q/xEASanEMHrJXL7AfSPzLSBVfvrL4CgtS7zprEU/09XGoC4jYr43bduEgEM=
+        code : |1+
+         // No action if the table is empty
+         IF TABLE_Gantt..Count = 0 THEN RETURN
+         
+         
+         // Opens the file picker
+         sFile is string= fSelect(fExtractPath(gsFile,fDrive+fDirectory), fExtractPath(gsFile,fFileName+fExtension), "Select the output file...", "Gantt file" + TAB + "*.wdgantt", "*.wdgantt", fselCreate + fselExist)
+         
+         // If a file is selected
+         IF sFile <> "" THEN
+         	
+         	// Stores the file
+         	gsFile = sFile
+         	
+         	bufContent is buffer
+         	
+         	// Updates the tasks in the array
+         	UpdateChart()
+         	
+         	// Serializes the chart in XML format
+         	Serialize(gstGanttChart, bufContent, psdXML)
+         	
+         	// Saves the file
+         	IF fSaveBuffer(sFile, bufContent) = False THEN
+         		Error("Error while saving the file", ErrorInfo(errMessage))
+         	ELSE
+         		ToastDisplay("The Gantt chart was successfully saved", toastShort, vaMiddle, haCenter)
+         	END
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Load
+    identifier : 0x286e69210b55a083
+    internal_properties : CAAAAAgAAAC5dolECQKqRW4YySaWkTGPXGucIJaIRF82XLh6bgSV8EATUJjQ2j18YdjA6pBlIL5tTOpUBdNZcy9S6RYuBgKfdJI+s1oMH3v1V7isrKI3d9cwT63JmRxYTWat4CDxdFS3jQ53Q0sn7rVwln2OAPev9E62A5k3G2B6bL0k5kVxAHt/5+guYxZlJHlfupkapWYIz658dz/5DKdZrSFHzm/pesuPIwo5iNMldFSw4FxetqMa3sWJVsq3HKeIR10+Vvzh/fYe8P/2yLPkMpzyYSgV+7wdhtncnO0aq6wUCetqRr6/Wglf4DJgsDG86nvEVcxH0UUdDOvCcF8RU3MOXvQfH43KchzrfG+TYJvZ/VS7aItFfoVeLbjZ+miL03jqSBZVx92qlVmo/eftLCNpQ8yQAkdt0pwIG7Nlu6rVC5nPrL1EnDPAKABbquk0B4MPwdvuG6SWwdJGyBVZtpEJEGUs2OWNdN8+8vQRx0WmyvVS8Xf69YHG8y3EgwzQ+iqDlCXYU/noLBHOIWCK4iZw4RxkJeflCg834FIO5dmkwRtAkeVp/htD8/PQWW9HG08C3IBF9b6YRH7zs83Z4fmxt0QALuMBpD5lCm1RbZGvcdRfv1Lq40bCFBm4f7vlXxOLoTXodtc3yVMq9vENBVNvNJV6WwstChaxMmNe3EzYClS9ZFWTf79g7NostXV7hsFOd2hrMO2AYZuDuyKPtVKMwROX6O66pczC9ZnVTu2jKRsslWckHc1zRRNYzdD96YStS6OEYc5f8zw2k0E/513p+fbHHcM9Gc8DE60YI4NC5nNxOxoIFHvcacLcIKDoCclKt7rhQ2AAMATWfOvvE7Ssez8NvuwfyKyTr88L3uqigvd1U6mpJi3oFh9e7QUCtz6btZJxIMqjLJAlgz0GurV17LYdqfbik819nkgV51nHE1NYz9bmFAdpG7Lq5pVyX/cu+snfywBofSxsalh8+nXHJ45EXA9rx9sEUHtMBbSzjO4nZXPHwlJhCasHQoEvHvn53q1t06oWnEgedFuz
+    properties :
+     x : 115
+     y : 6
+     width : 103
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAjKuIkV8VqrXHyg2XOzqbrSpR6MI3TEn2ztPo4lIvHFySBtZWKyWcLzAtMaatm3c7DvzVbLkeM51KP46hppWt2RBgOlBuoxuy8ZRNWBjqVjKrX4irUyLZpJNUULACWSYOs0Lcb1ZAEX/HD7+TBNK6akcjEhPY72KjhLmY/E4Wsrw==
+        code : |1+
+         
+         // Confirm
+         IF TABLE_Gantt..Count > 0 THEN
+         	
+         	
+         	//1: Save then load a chart
+         	//2: Load a chart
+         	//3: Cancel
+         	SWITCH Dialog(<§?12865F0A004DFDAA§>)
+         		// Save then load a chart
+         		CASE 1
+         			ExecuteProcess(BTN_Save, trtClick)
+         		// Load a chart
+         		CASE 2
+         			
+         		// Cancel
+         		CASE 3
+         			RETURN
+         	END
+         	
+         END
+         
+         // Choose the file to open
+         sFile is string
+         IF InAutomaticTestMode() THEN
+         	sFile = fExeDir()+["\"]+"Example.wdgantt"
+         ELSE
+         	// Opens the file picker
+         	sFile = fSelect(fExtractPath(gsFile,fDrive+fDirectory), fExtractPath(gsFile,fFileName+fExtension), "Select the file to load...", "Gantt file" + TAB + "*.wdgantt", "*.wdgantt", fselOpen + fselExist)
+         END
+         // If a file is selected
+         IF sFile <> "" THEN
+         	
+         	// Loads the file
+         	LoadFile(sFile)
+         	
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Exit
+    identifier : 0x286e69210b56a083
+    internal_properties : CAAAAAgAAADGmU4nSL1AZaQzgyI541WWjPRiDDIICBdhhaBlV8eY5FzvtN607hhmd8RiIPHbBJ7laB7zliIBAOOM6k3hOAtqK3FLAGKsqMP9n7AYkghiAwqb0FdAgrXpNzVx+YOpAp6gw3BXNDpsmnP+qRR/fH0PX7SagOvw+iSFVeubKv/+eE1emCwvn8wAsd9Fy1dx0tXjrfqtoFGwsy8DWuOgaP/B9TgQcxNAyi60Ct0GleAmhXFEehuYrdb7jvWG+LxPd/TI0DCcfpEcUElr5nrTqERs+uGfKZnZFhIRaHfsTzzLswKP2e6BPyCf09GaqzFywQMZNu0O3PVDC7OSJiK0YGiJxZnUMYZAA2Bsl4E9CNJ2S3Yax2XGi9RnOZLpnYDd+fNneJPNyC8JGO2zyiZnkD7oVldWGKPASg3qHcWnpUw0MGYhRFX0AXW8s81ABu9NdHPx4pozrBPG3j5YscvSFgm/yyrZBUN0aC/pLRyScv+DhwXl2XkVLU0BiwP9YUVPy/hVvKQMOQU8WiaFEm3cNMq7eOvhrfTON62XM+rbwPCOSx338XfpP75fhu7tY8i3dvJVcZtafukjVi6ADjqOJnYRErlNOtDpMr+F9zVJYf63vvHkKYkvYY5jJuIc+SoVZET1lLbfcmqRWG78zkDTPHfqQ7z0UMAuohXdzml2ztGkJ6Ohr+F9YJwZ557VN+t7RmRQXDd2SaTkiUE2QiUbiiDquCAEr2GVNQr4e/AJH9loWO1fmFcarGnJrBDU2K7iR8cFhIcyhbbVSKapiMhu0OthV6gmFt7FsCexiMeGrpkFjXw/bbq1aaM6pM+USOVO8KS4kYORkWren2bUR8nURHKLRhF2+eFk4O+8347+zlMCUOrrtGPJdG3ZrqOi0krwa7JlTAJ6K/cHpMDRykjwvFXna/qcEziu5EWeRg7daYaqjeZBlNUIYosXSydBa4Y7bHLSiXzma1FdoVCHkf4YlVCpyeOOuf7U+QfZsahlPzaxQg==
+    properties :
+     x : 920
+     y : 6
+     width : 103
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAB88RP0zSRVlFq52jEj37/GatebHZ3F9NxmLNe6GUpoVuOgGC9Wj2hcgnfljSKE3ypHKhUZir9wdloE4R5x7NPZo4/ohJff9Fjfe07hwHVHcx2z9YLErHAM3PAm7hQ8Nsqdmowb1GUZGpM/aY=
+        code : |1+
+         
+         // Confirmation if the table is not empty
+         IF TABLE_Gantt..Count > 0 THEN
+         	
+         	//1: Save then exit
+         	//2: Exit
+         	//3: Don't exit
+         	SWITCH Dialog(<§?12865F5C007F3C30§>)
+         		// Save then exit
+         		CASE 1 : ExecuteProcess(BTN_Save, trtClick)
+         		// Exit
+         		CASE 2
+         			
+         		// Don't exit
+         		CASE 3 : RETURN
+         	END
+         	
+         END
+         
+         // Closes the window
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_New
+    identifier : 0x286e69210b57a083
+    internal_properties : CAAAAAgAAABOCpwGFIq7S+3gaITCOQLX1UD/8bt0UE7nluJ2xmeVvgP4FgQ09huCkdOGyrZbFjoh7XGVeCMxc6MHTNuvYSTSTK1R5qtN/uORst/4DhGTz0PH6pawJHlUonUqMiwL6ICbNjDzZK0LQEWfUsfUcVyK0JkjKEUGjBCO9SZJEiSSzzts+mT9XH7SNOvmIr4F58qdGPmgyOzLUKXRvL47RS2GLXAIB56w7+njiHMi+JMXBXIQLzi+6akySg4AtQ4zshXfwwFNmJT4RX8/Zv5Z9vCM7HpejOAZsKEDGQ0ujajRP9P7Gf7lGn2w9N+K/qzhl5/FJzWvQpCeoIkBYWNhr7riJVZ/HVr40ev2INuAz/qSQOD4RoQYtvf3sumE8ZWYWh0ink9qTl8BSgmVySxOEXQiqoVQFM1RCNHPvh2qGbYFWp0TYlIk9IZgP9RMaEZWrf+aRdOC9FpP8D57MCAdUCxGcLPxt+owbZrO0pvPDsu8xgijWjx91b9p2oIhmJXLKt6XKyetVy+VaGSCNVeWslsw85mo2YamqtgBdyMDoHeC2nJU8LlT37ReBCVzntu9iTAptqIBgAi6RHBvWX/p08Chm8NqWraaKKAbdORm/qTuSefXzDAFlVMSHBRI8DF5xT37hMCJRcNQaD6kq4TjjiqaZlyCajXTWWGhS7uPXuZsZLi/DfWD57AQuHEiYceJisRkt2t2tqtWGv/ZosWZGQgbln/zRMbx02XFCTOhXxn5+PD9Zyl3DSLDIfmfN/8BuwoDbbdP800gqCLaEavGonxXubgWn4aGi5fZ6sJ6dIksQsyqdK9owSVnpFcSq55PZQ8iN/sprFrwhFAA9HG1y7wPTZsBQJIQGA6AGcgY7LQGD15fSZuoIH71uDRQDOPLtuTiNIKWdyFtgPzPM+vdc7EBL3WHS02ceMQeSZkfOUnCvQZ3HyEQA/rMsm1GJ14u9R1D4shihORPerwAQrnTrsy+V8aTJReRJOLs2S7eWgz8txdBsqQ2dZGVM7rQ8xatnfVb3w==
+    properties :
+     x : 6
+     y : 6
+     width : 103
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAIwelQc/CwrWNKGS4dPNZziM4bNSugt+x2UOq7vdCapcrAHSK6l6a/XaW9sxhcCkkPPHCF4p8u3j4BS99RonANHG4sn/+R+ZdpL5Y4ZXovUFJwVm8e+B776wuqIzWKUziMD/sPqtQwNd+Ti/EtqT1Qta5XLDskJsaH20a+97fapls4hQJvOY6vJGNzghGln91M
+        code : |1+
+         
+         // Confirm
+         IF TABLE_Gantt..Count > 0 THEN
+         	//1: Save the current chart and create a new chart
+         	//2: Create a new chart (the current chart wil be lost)
+         	//3: Cancel
+         	SWITCH Dialog(<§?1284FE0100AC6419§>)
+         		// Save then create a new chart
+         		CASE 1
+         			ExecuteProcess(BTN_Save, trtClick)
+         			
+         		// Create a new diagram
+         		CASE 2
+         			
+         		// Cancel
+         		CASE 3
+         			RETURN
+         	END
+         END
+         
+         // Different default file
+         gsFile = ""
+         
+         // Clears the structure
+         VariableReset(gstGanttChart)
+         
+         // Clears the table
+         GanttDeleteAll(COL_Gantt)
+         TableDeleteAll(TABLE_Gantt)
+         
+         // Updates the information of the Gantt chart
+         DisplayGeneralInfo()
+         
+         // Modifies the status of the buttons
+         AdaptButtons()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_ProjectDetails
+    identifier : 0x286e69210b58a083
+    internal_properties : CAAAAAgAAACV/PXjFaUtegJgbcPpsrI/BokljnR2u34QXYE/XYSBRHkzgpl6Git0dneWxki2jkhiiGrwxBJloeY20LXP2ZXWysDi28NwUhudg2FvIQmVGXYXiSMHX8mlg7c0mJTksnvQzArfsjCqCaJKhVk653Y1V8CFnAV+uE+Gt7LZBvcTJo/6LgNzkdZZ6qzAnJe5Zfx6jZkIEly3f7+qFMZMCdu+MiySmpF44RBBUtYnyFV09E3L/kRtwdS6vebMsmGOaZ/rD9EmFCAatfV+ckQxxXVI11Y0G6gevy8adsh4waf/801TNrXJL0f225qYwDd34/W7mBRZiKfwgYLYPaeSHnlp7lwlwkEKZZ34q3AHj9oy8CpbqQcIZmfjMq4PcT5O38fpTsKpv00PS1REHCJT4XlZ5lHgYx21I3wfGycplVeFZQd0Fbycyu0zOb/BjrYIuQxG9AULI7JY+rF7lZTztQbgT/URPsVS5GAvfOp7JnlnxTmj5WrESCF9TdIboV/YY5FyVft1SZXeUJbxFRlGqzuloOT6Q4bao1QaT7VBWAh7HzfEbfEhw13M4HKpmA/XUGnfK48oaElZgk/3
+    properties :
+     x : 6
+     y : 60
+     width : 1017
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Clears the static
+         MySelf = ""
+        type : 14
+  -
+    name : CBOX_AutomaticReorganization
+    identifier : 0x286e69210b59a083
+    internal_properties : CAAAAAgAAAB8qolxVVTOwTzxXWL/zn495GVXrMoYs1p/jQw6aj72dKRqZ2GU3K5PgJ2yzqo5tFGqLl0hX70SZjYwZcGtWLzL6SBGvuiJVsWJyLXcx3hbM5Q8+E/qqixFe2fGGITDjOCd6H8++dU1pwbPqyrubAbyzzmGXWNExbqA2mMzgFDb642Uy9cbVRoKAV2V+bfrh6H8c9TeIwdHKgMvyOXF/fnDBZmXCbpVMD7nAq2SLcffMGWS8sEzmi8GivUK5UIOV61r/XSx3nAnDFtj7Z9SvvEBbnFojZ+v+hxFW0Ei4H+8bqfgBXAGH0C0/GgyC0AdgSAwNnxWSrT74ZqNktfgwUK+WYrdYnuRVtCufceGgDu8REEjiRVFChqFcb8JXYb5hcWvTvp/Rvtt77WnEY6wcwf0U1jpExjMV1ODuy6q4ixvuOclnarTO0dmmXs+81+S56x0jqMZPcUlkAJdgGnY6gAHngEGffisbe/GqvIQKuwTTwYM1ebhHrrglUxLkb2ZY5uFKrmWqRCqfZq716DoFhMxcxDoR0UqzMxpiffwiCONTVh/Pnhg4cYpXMo//qHhe4+6sn2hbvDYLuvmU1Ng5O2ldfJZLqFPbm7bqF5la7e5qkkZIPWKhRPuPCw3M5wprhQJ47Q1JP2cJJhprgKSD1pVvq80/4y0C5Z5uerctVUuEMwjDl2lb9KQLRuT6Fx7tu9XOU3eM1G+2ipwvyRbRYifcoTFwi5TTgxKOXiMkkxevpD1z2ebuPCVRALm5RVh6N8iHVrMdV1fMeswSwCAfO2OryXAEMpdNT53pAaVmyViGr769mLMyBQxJtWXwCKt4o4UzE+8Xz/igLdZZlHuKf4paQtthtLk2v09bZ+tfGVuUvVymOnYCH0Nu8o7ex83FhCGOwGxLuXzldeq2hxa/n9TUYh9Na2pEUAJtWgJ+yRyMNUsw2AFwImljsUvBs/375riZi6/Xe8p9o0LHVZ1kIk2HIgWG0TA5r5geZNcSN8s6566UH0KsDuART7L2dd5nfbcnN39assSx8BGlMotPI6sqkD0+B1cT91WoYQrvuHAC9OeIXCj3ipkxU9exIUCQF8LQFIaB2wfikqYVFKvGecVKypHKReLSIiRzYvu78dAXsQwz74Knfy6kg2sTw4zsQc8Aui7VrsFuA2G7K3lAVDH0Cdznp067IKsTAaaIiKWbxadCDgblreeW2xsaWSv0AgT9EPMX/wTIaBssjf4wm9WOJ0YK2egTmPCULFVG4oP2p8vwOU0mK4bS6AV1G99lYDgZRzItjyP2x56bNfG0Ws=
+    properties :
+     x : 554
+     y : 699
+     width : 258
+     height : 25
+    options :
+     -
+       internal_properties : CAAAAAgAAAD+xBjpgh52nBGS+YeP+xwP7A4zzfPpCdCEoonO6DdbEK11HuLg0F4F0DvUTOZXdHM04th8NgLcgDAJtXgWfalVjenj7oKiUvOZCTATWH0mhQUUX8FU9kPcOBReyAD9kFPeYFHHEPs9kdPig2ZipEuXFrSN3cNlatLn6/Zhsme4fXdPV8bJQn1a15Fp7yZVScU6UBcGAgKSYvxU
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         MySelf = True
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1+
+         
+         // Enables the automatic reorganization
+         COL_Gantt..AutomaticReorganization = MySelf
+         
+         // If the user has just check, forces a reorganization
+         IF CBOX_AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+         
+         // Updates the tasks again
+         UpdateTasksAfterAutoReorganization()
+        type : 17
+  -
+    name : CBOX_ProgressCumulativeTask
+    identifier : 0x286e69210b5ba083
+    internal_properties : CAAAAAgAAADpq1OJvPPOJ9Yvga6avYYt904B04Y9MwNyuBSDK9v2Qo2UaiSttzO3fsC2cBGj9f8q+zKuVLVJCXSt2JBb0k6+Bs6SHEr191B5mL95O3PdZ8YP5Ajk9m3b3W+m1SMBKKc61Gn7sMKo8BnQDXfDLCE2zCIVah/Jbtn86Z83Kyluy+MQWdzkscmvpab/9lmkg/XGJTwyi78CNy4uFrWAF4Ancrxz2tyUMvXO5lcYxBBL75g9p7ptOeIDtNf6+ETCFDJA/9OQcf9SzPcZ5kT9OYxODMpbp5823kGRAyHpK1COwmzJehTxr4wtLx1Hik8SEbPwetS+0Sh/wHl8H/FCnldbDL6wZ3f6TTQ805TxMR6yrgA8t4Q4nT2Hu54u+X9mvSCysuqPPOgOsERjvz8AtMjDHuHbDfI6pblBOVe+TzVp85crfcm5wyuBE9zgRotqJ9eOfqj2SlcCCNl7BeXzuqcbRFYhij1iJFw/xO848dW29o/nkFq6mUA6OKY6rfCP8TkhYQOiIzDUfrf3fMKLAOXX91Fd9myjj2/TZhu8HBUoGYNpldKU1TXCOW31afszQfjXudUgNWrBGfuVMUzefXc2BqoxmfUQZZAIDcrHM6B15Yqd4RFG2B1LscggeeySvULTICnWXqi+JZw9/NU4L4v+/zMIDLXFtVOcDyxenZi9Zl7yO/1+SKcdo145+yi6GXiVvZbm7+0zcweZ/JhITFl4gss1T7ghy+lbTrkjMX6EAIYJD6pqqNrZ9DTMO9aDHuE4sjSnDrfMeZlMs9gQhiQ6eUItii1Lx2d4ExhKfTxIl4MDBh0zG5bxDiOxYHfSKLGdqEGLuevZ6D/PQgpcElbBLQALzXcnLp3UkzOfaSQKpAMNFtslPd7XRBktxYmdIZYD44AgKfG8QzaXr9ia5eHuF+Mg3StNLLUurv2q/h6ErAmPkpnZFM7gSEDoYW2UM8+0NeAx0c3daDJb80ojKwjBncn5Ra/Igd64xm8pOkq3bofNxXRhwObdFCcAhpveWMYEA1tFz9c5JEH7WiiDvl0hZz+Y8SV34q59p8Ck0nCcBSnelSsEzfiHF9MGcXQS7JkAgBtEewqDuqGfv7PGsaMJToOBjNK8EsPgmYIUieStCeMDFvjy0i0is/buYqD/TCexXFot+1JBcYB1cZnrz6OZXX48H0ca+tGXYCRFy4g0E9qDNvWJHVK27n82b9o4CoN0j433p2TSIPFSvZcCinOopdew0mEP8EZktpLDHBeXQNWaga+E8TZ8eeJiMt7VWYUQgwpNGFSuwY4oVZ6y8gDsNFH29YAjKxd3+7wKDNgKYFymNBowsijVs7l8mivMxpwvUeQEB4Xi
+    properties :
+     x : 236
+     y : 699
+     width : 312
+     height : 25
+    options :
+     -
+       internal_properties : CAAAAAgAAADXAP/n7tbFLWPqlqpx1R6l8TslXCIsWDHioJSNJYyG9oV8J5HyO8lF9vJiDic42DUU3tsbtK1StGyP/wbDy6f4UlQVWa5+5n3N7x/LmvRP4KUvCMVHdtqJVVXdQGNVGKZwkRTRjyWykO5vcFB3Y3OGfOgz6BVaOnhdcXAM7Fuc3KTEyu8nD5pVhdTat5V0fvXCdRfU69ki0YAmtPjutbYE1JiU
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         ATask is a GanttTask
+         
+         TABLE_Gantt..DisplayEnabled = False
+         
+         // Browses the tasks
+         FOR ALL ROW nSubscript of TABLE_Gantt
+         	
+         	ATask <- COL_Gantt[COL_TaskID[nSubscript]]
+         	IF ATask..Cumulative THEN
+         		
+         		// Changes the progress color and the background color
+         		ATask..ProgressColor = (CBOX_ProgressCumulativeTask ? COLOR_PROGRESS ELSE COLOR_CUMULATIVE)
+         		ATask..BackgroundColor = (CBOX_ProgressCumulativeTask ? COLOR_BACKGROUND ELSE COLOR_CUMULATIVE)
+         		
+         	END
+         	
+         END
+         
+         TABLE_Gantt..DisplayEnabled = True
+        type : 17
+  -
+    name : STC_Options
+    identifier : 0x286e69210b5da083
+    internal_properties : CAAAAAgAAADsyzXD5U2yEH+PJhHWdw9LbKH08uQCPdWo4cRIX0RFKwy9aC0wCYO/MOB9Q/gDVh86ldX3cfLKcrEj/hpxpbkvLh/qs8Ux3HleCBP/4pIoYKJBFwPQDTS6Erwj+n86v1b2qh7xaTOvotv4eOZEpBnelI7VgEeLIMxU5VpNgRijhG3UcIW8Iu3ZmF/Ek4t7NYN/iw1UdB9ET8gEwscnyc3owmtbKK2FB6U6ziQLAIb7xq8g9DHq38+dhMwAsrpI/EMZ0wpXi0aqUbWnt7p7BX50I4MFTTbRMBGHpg6loQ+XcgNN7vaWWgydPidEA7ee07bXEzi79/oGpoHgH/IPujHarYPdSpgff0Smjz4awpsuceDRmiYObs1hCFz7YsfjhpwEPZKDdn3+pCnP26QaU8I7oqd4M6eNMqtR8v6LepI7SyI9/sd9Aewu9VmBL4V4Ibe7TrmOrjaucG36sFoByULuJ+t+Nber7LqbHVwb4SvUaxGmA9M1EcSOKCdRsHpbw7xrkZBiqZQkGey92+G3rs5WRYLGS4JNIDCu5e3oKex5Qwwp3J5gjnd0rG/bhXeP973/8N+U
+    properties :
+     x : 6
+     y : 704
+     width : 224
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Print
+    identifier : 0x286e69210b5ea083
+    internal_properties : CAAAAAgAAADlpymAVugbPUkSGNDUy8Z3Uj5VN2FStCJYZgy3AyRlXpD9c0VWhFABYsKYjsVonMlVsnZJdsV5M9NDjouQ4Hv9ZPZE/m2ParIEeuk4juURWk1M7cIUNp7+oFxtMPI7+QEVxo6oT552P2v/+7jNUuaXAAHwEB+nEijqF9h/BtVnCMnjiOLZx7bEmElUu42Oc7miVtqBlnuKIN9+KbSiBFJ2W/PXaSUSPkvV7AEX+d4Mk3xLnaIJOkcvRY+FMxr0wEF9ihaNyqQCcmSCGlN9RM+FXBd8NN1e/3uzf1ipa5wwZThq99+M2UNWMqUHgTJLaBdMG8nZ60+Dia97YYll1tLDnFM+dLy4s926jBAaBiAlULC/2/RCAX4BA975bB1uy5vO+4ZQj/sjMqAv+A+rpT5vQW+R3fN2IXy4QoRwLRVlqJ0CFjSpfpKtbItVLCFrvqAJ/I0qGq79tcxRQGLaHONh+/LUMAExTaNT5y2hFv9PYbNR8GyNJt8wSMDMR9ETHYXCDSObP8WvIiL0sjoSA9m5o30F/lvPc/UmoT1UcT9zAFX5xOkhyaq70RPZrelsb2Pbu+wGmB6etmNrd7+5uzc//NczbiY5iRB5Kzdt9QxyvpZKXz4MJqrFScGnsfG59poKJk97RyFRQffftX+R/mSdU7tf7OL5PVJKrrCIOkCKkW9fTwPiRhMF31e5XP0+IjvRUI+Cl0lw4G5xi9BQGTxUVkwCSYhq8pY9qNHbp4EV7nUOd48B28q/sxR3k1jlJPzoLWAp20ilQkf9w225G2hc46xfacGBGNQMv0svAYcS8zyel5jkHhR8iYDRFZfMidbr/tNdFyyX/4coPnRcevjC3+W5ULUrjQTV1ykPl7T3DLSAEDIQAalPN+ZOyCFIZSVMb9udhFqPdojgwaYawJmhRghW/JiJm/3FznrENM69pcERg1361+7al72R/efqVKwQlhgfl8lZLeVx09DJa/Etop3/vnS8CRVVI7ak8Jbi8dmEN0+riA60FH09UP23vIzwdA==
+    properties :
+     x : 333
+     y : 6
+     width : 103
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABZGwyH36xlFlHqZyiEzz5/GWverDa3V1MxWPPe6GUpYRsOQGA9Wr3hconfVvTK0/ypXKgUJmpdoXmIc6QZJ9Ovhu4fQjK/XzGDHc3bJ+H1/WzWr/arcpEg0xOgO1iwEDtK1spQj734PDKEpf4=
+        code : |1-
+         // No action if the table is empty
+         IF TABLE_Gantt..Count = 0 THEN RETURN
+         
+         // Prints the Gantt chart
+         iPreview()
+         iPrintReport(RPT_Gantt)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ popup_menus :
+  -
+    name : MENU_Gantt
+    identifier : 0x286e69210b5fa083
+    internal_properties : CAAAAAgAAAB3H1mP9hJvasxb/2HR2Z/nMnDNvV6kSo6CfFpcaaWto/dGPTUJZC1Yyx1iqoCLqs1VHF6qPS5mb1l6nQsWeYRWDazQTOYUUOrBrxntZDXaN+WigKlRvkTgMctiPdsdOmFS+vphg/IqiYqzKXxBZDBm+56JHiGQ5mklvULvpRnROK+WPQJ9HyJtTBp/QJ5R0Tn+PPWjJN4PCBuXhZ/BrhYRhc0QmAzFgLD2IPP7xr1qf5zTf2RmJDLuGeqhY7H5ltg5v+RNoY4qCG32DmtLzmi4d3p3T2lsbFmZDZDRU1CDmBnOeAc5IHVJPjt7NzZmnY4g+xxcHBpmRjXoUEuo8Hqgzbc/HMfHYh7u6d6cm/CbV8tuKvAwfi9Kv32hViduHAPvcwACPxNk
+    options :
+     -
+       name : OPT_NewMilestone
+       identifier : 0x286e69210b60a083
+       internal_properties : CAAAAAgAAADVHNdR09coe2d7sAYgNDIyxC30vXbUqbQ/pnOjYg80d7GLoZn/rIW0Di3r3kuPmC5GoGACJozPpasNSi8fBsE8lJ6DdMbWcxfz5Tanrmo0dRpllmFCnKbLvXS386VNMbeN/VRy7xiC/wQdNBCEsoNEKqBzzw9UP7I7riUQUOoKbTXPCajPEZJixezRlenrMNvhWxXipWwxMUnKoIV6XtnK0Lej89p8zdHKzPHpKU6dLWGxq3cHoJ2BzfRCYMYx3IEtTpmLXdD+rJsIBOLmU6frrb4lpq9GufHyZG9AlbpmqxH1JU+Tm6SP4yJQKmZwP0fXj/uaaydbwmHo72li8XieKBXRnK2xiXbf34CyNKvqQw39/HJK43Z4+G5Q8VNqfKcxfdLTQbURfap8Fx2yVR7vpDwqJJtSknrjpB0MCNpL62FekLI5tR5UoAW4MjvDc1jG3WXLIqk=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAujxoQgul63uoCUgA2VO+P5zuuwTeLaLvLqsiSf/owIJvrG4qDpAIocoxNr8S5odYWHm22iVCzIDaBpqfkLMipN3nIXhf5lVPZ/KIaCSlxvoW/EKuFTh1En3kGmwOtUEwSOMResN+sMRGuxxIy/zqF+ouRVwfBw2HJDzHem2OZ
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      // Colors
+      COLOR_PROGRESS is int = RGB(179, 200, 51) // Progress color of a task
+      COLOR_BACKGROUND is int = RGB(206, 80, 67) // Background color of a task
+      COLOR_CUMULATIVE is int = RGB(115, 115, 115) // Progress color and background color of a cumulative task (if the progress must not be displayed)
+      COLOR_MILESTONE is int = RGB(26, 161, 225) // Color of a milestone
+      
+      
+      gstGanttChart is STGanttChart // Variable that contains the information to store the entire chart (tasks, links, hierarchy, ...)
+      gReferenceGanttTask is a GanttTask // Reference task (filled when selecting a task) - used to prevent from modifying the cumulative tasks
+      gbCreationAAF is boolean // True if a task is currently created via the AAF, False otherwise
+      gsFile is string = fExeDir()+["\"]+"Example.wdgantt" // Name of the last file used
+   -
+     code : |1-
+      // Defines the bank holidays
+      DefineBankHolidays()
+      
+      IF InAutomaticTestMode() = False THEN
+      	// Loads the example
+      	LoadFile(gsFile)
+      END
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : SwitchTaskToStandard
+     procedure_id : 1760460094817214595
+     type_code : 14
+     code : |1-
+      // Summary: Switches a task to standard
+      // Syntax:
+      //SwitchTaskToStandard (<nRowSubscript> is int)
+      //
+      // Parameters:
+      //	nRowSubscript (integer): Subscript of the row
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SwitchTaskToStandard(LOCAL nRowSubscript is int)
+      
+      // Retrieves the parent task
+      ATask is a GanttTask <- TABLE_Gantt.COL_Gantt[COL_TaskID[nRowSubscript]]
+      
+      // - switches the task to non cumulative
+      ATask..Cumulative = False
+      
+      // - switches the task to non milestone
+      ATask..Milestone = False
+      
+      // - positions the specific colors
+      ATask..ProgressColor = COLOR_PROGRESS
+      ATask..BackgroundColor = COLOR_BACKGROUND
+      
+      // - no image for the tasks
+      TABLE_Gantt[nRowSubscript]..FolderImageWidth = 0
+      
+      // - restores the modification of columns 
+      COL_StartDate[nRowSubscript]..State = Active
+      COL_Duration[nRowSubscript]..State = Active
+      COL_Progress[nRowSubscript]..State = Active
+      
+      // - fills the columns
+      COL_Duration[nRowSubscript] = ATask..DurationInDay
+      COL_Progress[nRowSubscript] = ATask..Progress
+     type : 458752
+   -
+     name : SwitchTaskToCumulative
+     procedure_id : 1760460094817280131
+     type_code : 14
+     code : |1+
+      // Summary: Switches a task to cumulative
+      // Syntax:
+      //SwitchTaskToCumulative (<nRowSubscript> is int)
+      //
+      // Parameters:
+      //	nRowSubscript (integer): Subscript of the row
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SwitchTaskToCumulative(LOCAL nRowSubscript is int)
+      
+      // Retrieves the parent task
+      ATask is a GanttTask <- TABLE_Gantt.COL_Gantt[COL_TaskID[nRowSubscript]]
+      
+      // - switches the task to cumulative
+      ATask..Cumulative = True
+      
+      // - switches the task to non milestone
+      ATask..Milestone = False
+      
+      // - positions the specific colors
+      ATask..ProgressColor = (CBOX_ProgressCumulativeTask ? COLOR_PROGRESS ELSE COLOR_CUMULATIVE)
+      ATask..BackgroundColor = (CBOX_ProgressCumulativeTask ? COLOR_BACKGROUND ELSE COLOR_CUMULATIVE)
+      
+      // - modifies the image of the row
+      TABLE_Gantt[nRowSubscript]..ExpandedImage = IMG_Opened_directory
+      TABLE_Gantt[nRowSubscript]..CollapsedImage = IMG_Closed_directory
+      
+      // - prevents from modifying the columns (except for the title)
+      COL_StartDate[nRowSubscript]..State = Grayed
+      COL_Duration[nRowSubscript]..State = Grayed
+      COL_Progress[nRowSubscript]..State = Grayed
+      
+      // - fills the columns
+      COL_Duration[nRowSubscript] = ATask..DurationInDay
+      COL_Progress[nRowSubscript] = ATask..Progress
+      
+      // Defines the values for this task
+      CalculateParentTasks(nRowSubscript)
+     type : 458752
+   -
+     name : CalculateParentTasks
+     internal_properties : CAAAAAgAAAAEvJnVT6NlWbK9yhgFjpHK/+L9A4QhfBdwkM5udecc+UoyfvYHXrYC7qx/RHiHmesUjW86J8mb/oO2MG7yrpA685cEybLh/wPIJ2cT9Zf50eiTdIm1iDXSXAkk0u0eoP0f1n3vRJcjXF7RDHcGGHciXRsvqiRtaP/mq6p4d69l2KtVhReUEXLPizjKSu+Tgha2yOlMp2MdxYgnHaFGaR1t/87+UsLf
+     procedure_id : 1760460094817345667
+     type_code : 14
+     code : |1+
+      // Summary: Calculates the information of parent tasks (start, duration, progress)
+      // Syntax:
+      //CalculateParentTasks (<nRowSubscript> is int)
+      //
+      // Parameters:
+      //	nRowSubscript (integer): Subscript of the row
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CalculateParentTasks(LOCAL nRowSubscript is int)
+      
+      // Subscript must be valid
+      IF nRowSubscript <= 0 _OR_ nRowSubscript > TABLE_Gantt..Count THEN RETURN
+      
+      
+      nParentSubscript is int
+      cTask is a GanttTask
+      cBrowsedTask is a GanttTask
+      nDuration is int
+      dtStart is datetime
+      dtStartOfTask is datetime
+      dtEnd is datetime
+      dtEndOfTask is datetime
+      nNbChildren is int
+      nTotalProgress is int
+      
+      
+      // Retrieves the task for the requested row
+      cTask <- COL_Gantt[COL_TaskID[nRowSubscript]]
+      // If the task is not a cumulative task
+      IF cTask..Cumulative = False THEN
+      	// We must position on the parent task
+      	nParentSubscript = TableGiveParent(TABLE_Gantt, nRowSubscript)
+      ELSE
+      	// We must position on the task
+      	nParentSubscript = nRowSubscript
+      END
+      
+      // Moves up in the tree structure
+      WHILE nParentSubscript > 0
+      	
+      	// Initializes the values
+      	dtStart = ""
+      	dtEnd = ""
+      	nDuration = 0
+      	nTotalProgress = 0
+      	nNbChildren = 0
+      	
+      	// Browses the children of the row to perform the calculations
+      	nhildSubscript is int = TableGiveChild(TABLE_Gantt, nParentSubscript, taFirst)
+      	WHILE nhildSubscript <> -1
+      		// Loads the task	
+      		cBrowsedTask <- COL_Gantt[COL_TaskID[nhildSubscript]]
+      		
+      		// Increments the number of children (without counting the milestones)
+      		IF cBrowsedTask..Milestone = False THEN nNbChildren++ 
+      		
+      		// Increments the progress total
+      		nTotalProgress += Val(cBrowsedTask..Progress)
+      		
+      		// Stores the start and end of task
+      		dtStartOfTask = cBrowsedTask..StartDate
+      		dtEndOfTask = cBrowsedTask..EndDate
+      		
+      		// In order for the calculation of cumulative tasks to be correct, this end datetime is modified to the previous day at 18:00
+      		IF cBrowsedTask..Milestone THEN
+      			dtEndOfTask..Day--
+      			dtEndOfTask..Time = "180000000"
+      		END
+      		
+      		// Defines the start and the end (minimum date of subordinate tasks)
+      		dtStart = (dtStart = "00000000000000000" ? dtStartOfTask ELSE Min(dtStart, dtStartOfTask))
+      		dtEnd = (dtEnd = "00000000000000000" ? dtEndOfTask ELSE Max(dtEnd, dtEndOfTask))
+      		
+      		// Goes to the previous child
+      		nhildSubscript = TableGiveChild(TABLE_Gantt, nParentSubscript, taNext)
+      		
+      	END
+      	
+      	// Loads the task	
+      	cTask <- COL_Gantt[COL_TaskID[nParentSubscript]]
+      	
+      	// Applies the values
+      	COL_Progress[nParentSubscript] = Round(nTotalProgress / Max(nNbChildren, 1))
+      	cTask..Progress = COL_Progress[nParentSubscript]
+      	COL_StartDate[nParentSubscript] = dtStart
+      	cTask..StartDate = COL_StartDate[nParentSubscript]
+      	
+      	// The duration must be calculated by increment (step of 1) as long as the end date of the last task is not reached
+      	// (therefore, the management of working days and bank holidays is automatically performed by the Gantt control)
+      	cTask..DurationInDay = 1
+      	WHILE cTask..EndDate < dtEnd..Date
+      		cTask..DurationInDay++
+      	END		
+      	COL_Duration[nParentSubscript] = cTask..DurationInDay
+      	
+      	// We must position on the parent task
+      	nParentSubscript = TableGiveParent(TABLE_Gantt, nParentSubscript)
+      	
+      END
+      
+      // Refreshes the display
+      MultitaskRedraw(WIN_Main)
+     type : 458752
+   -
+     name : SwitchTaskToMilestone
+     procedure_id : 1760460094817411203
+     type_code : 14
+     code : |1+
+      // Summary: Switches a task to milestone
+      // Syntax:
+      //SwitchTaskToMilestone (<nRowSubscript> is int)
+      //
+      // Parameters:
+      //	nRowSubscript (integer): Subscript of the row
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SwitchTaskToMilestone(LOCAL nRowSubscript is int)
+      
+      // Retrieves the parent task
+      ParentTask is a GanttTask <- TABLE_Gantt.COL_Gantt[COL_TaskID[nRowSubscript]]
+      
+      // - switches the task to non cumulative
+      ParentTask..Cumulative = False
+      // - switches the task to milestone
+      ParentTask..Milestone = True
+      
+      // - positions the specific colors
+      ParentTask..ProgressColor = COLOR_MILESTONE
+      ParentTask..BackgroundColor = COLOR_MILESTONE
+      
+      // - modifies the image of the row
+      TABLE_Gantt[nRowSubscript]..ExpandedImage = IMG_Milestone
+      TABLE_Gantt[nRowSubscript]..CollapsedImage = IMG_Milestone
+      
+      // - enables the modification of the date
+      COL_StartDate[nRowSubscript]..State = Active
+      
+      // - prevents from modifying the other columns
+      COL_Duration[nRowSubscript]..State = Grayed
+      COL_Progress[nRowSubscript]..State = Grayed
+      
+      // - clears the meaningless columns
+      COL_Duration[nRowSubscript] = ""
+      COL_Progress[nRowSubscript] = ""
+     type : 458752
+   -
+     name : DisplayGeneralInfo
+     internal_properties : CAAAAAgAAABa1UaQj67HiWQEWwkWGNMatQKushbVISYugDDZaU6ypxBNu/qZyPQJ7oZiUJYEYUruHva7LrTxQ94qkTZcWvw91SbQdFAMCz40TP61HerhSm9MvLrOs1hnNVrVJYBt1fBsq8xwtTYaxdlEH3ARCWQNIhCWc10mAZZJtrVBpn5un5tF/Z8sr76rQS7QOP25TGkLVOeGmTI=
+     procedure_id : 1760460094817476739
+     type_code : 14
+     code : |1-
+      // Summary: Displays the general project information: start, end, progress
+      // Syntax:
+      //DisplayGeneralInfo ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DisplayGeneralInfo()
+      
+      ATask is a GanttTask
+      dStart is date = ""
+      dEnd is date = ""
+      nAdvance is int
+      nElementNb is int
+      
+      
+      // Browses the table
+      FOR ALL ROW nSubscript of TABLE_Gantt
+      	
+      	// Only the first levels (cumulative tasks contain the necessary information)
+      	IF TableGiveParent(TABLE_Gantt, nSubscript) > 0 THEN CONTINUE
+      	
+      	// Retrieves the task for this row
+      	ATask <- COL_Gantt[COL_TaskID[nSubscript]]
+      	
+      	// Start date
+      	dStart = (dStart = "" ? ATask..StartDate ELSE Min(dStart, ATask..StartDate))
+      	
+      	// End Date
+      	dEnd = (dEnd = "" ? ATask..EndDate ELSE Min(dEnd, ATask..EndDate))
+      	
+      	// Progress
+      	nAdvance += ATask..Progress
+      	
+      	// An additional element (do not count the milestones without progress)
+      	IF ATask..Milestone = False THEN nElementNb++
+      	
+      END
+      
+      // Fills the caption
+      IF TABLE_Gantt..Count = 0 THEN
+      	STC_ProjectDetails = <§$0001§>
+      ELSE
+      	STC_ProjectDetails = StringBuild("Start date: %1 | End date: %2 | Global progress: %3 %", gFontBold(True)+DateToString(dStart, "DDDD DD MMMM YYYY")+gFontBold(False), gFontBold(True)+DateToString(dEnd, "DDDD DD MMMM YYYY")+gFontBold(False), gFontBold(True)+Round(nAdvance/Max(1, nElementNb)))	
+      END
+     type : 458752
+   -
+     name : AddTask
+     internal_properties : CAAAAAgAAAD+eTocCbpjaVgYNyl29NuewfaGWs5hRQaiZIzxCdISE3zR28IJ7BCRInr2EB64eU6ikl5j3ihNAzrmdeZUJkx5qVK49NiQLxbAyMIHr2T7aPnWNuho/cLhrwTfZ8IXjy7exdamT5A85yvuWQJri6YLlIKIGaeIK1ALiLerIOCoVUWPN7XG8VAt2/DSYsfLHr/N6HMKBY4=
+     procedure_id : 1760460094817542275
+     type_code : 14
+     code : |1+
+      // Summary: Adds a new task (or a new milestone)
+      // Syntax:
+      //AddTask ([<bMilestone> is boolean])
+      //
+      // Parameters:
+      //	bMilestone (boolean - default value=0): True to add a milestone, False to add a task
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AddTask(LOCAL bMilestone is boolean = False)
+      
+      NewTask is a GanttTask
+      stATask is STGanttChartInfo
+      
+      
+      // Defines the task
+      NewTask..Progress = 0
+      NewTask..ProgressColor = (bMilestone ? COLOR_MILESTONE ELSE COLOR_PROGRESS)
+      NewTask..BackgroundColor = (bMilestone ? COLOR_MILESTONE ELSE COLOR_BACKGROUND)
+      NewTask..Cumulative = False
+      NewTask..StartDate = Today()+"080000"
+      IF bMilestone = False THEN NewTask..DurationInDay = 1
+      NewTask..ID = GetGUID()
+      NewTask..Milestone = bMilestone
+      NewTask..Title = (bMilestone ? "New milestone" ELSE "New task ")+" "+GetIdentifier()
+      
+      // Stores the task
+      stATask.sTaskID = NewTask..ID
+      stATask.Task = NewTask
+      stATask.nParentSubscript = 0
+      
+      // Adds the "task" row
+      nSubscript is int = TableAddLine(TABLE_Gantt, NewTask..ID, NewTask..Title, NewTask..StartDate, (bMilestone ? "" ELSE NewTask..DurationInDay), (bMilestone ? "" ELSE NewTask..Progress), NewTask)
+      // Forces the style and the information
+      IF bMilestone THEN	SwitchTaskToMilestone(nSubscript) ELSE SwitchTaskToStandard(nSubscript)
+      
+      // Updates the values of parent tasks
+      CalculateParentTasks(nSubscript)
+      
+      // Updates the information of the Gantt chart
+      DisplayGeneralInfo()
+      
+      // Modifies the status of the buttons
+      AdaptButtons()
+      
+      // Positions on the row
+      TableSelectPlus(TABLE_Gantt, nSubscript)
+      // Switches to input to modify the title
+      ReturnToCapture(TABLE_Gantt.COL_Title)
+     type : 458752
+   -
+     name : UpdateChart
+     procedure_id : 1760460094817607811
+     type_code : 14
+     code : |1-
+      // Summary: Updates the chart
+      // Syntax:
+      //UpdateChart ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE UpdateChart()
+      
+      cTableTask is a GanttTask
+      stBrowsedTask is STGanttChartInfo
+      
+      
+      // Clears the variable
+      VariableReset(gstGanttChart)
+      
+      // Stores the tasks
+      FOR ALL ROW nSubscript of TABLE_Gantt
+      	
+      	// Retrieves the task for the table
+      	cTableTask <- COL_Gantt[COL_TaskID[nSubscript]]
+      	
+      	// Clears the storage variable
+      	VariableReset(stBrowsedTask)
+      	// Stores the information
+      	stBrowsedTask.sTaskID = cTableTask..ID
+      	stBrowsedTask.nParentSubscript = TableGiveParent(TABLE_Gantt, nSubscript)
+      	stBrowsedTask.Task = cTableTask
+      	// Adds this task
+      	Add(gstGanttChart.arrTaskList, stBrowsedTask)
+      	
+      END
+      
+      // Stores the links
+      gstGanttChart.arrListLinks = GanttListLink(COL_Gantt)
+     type : 458752
+   -
+     name : LoadFile
+     internal_properties : CAAAAAgAAABd7ZQCX0Sba4vgPDZYkGdAVoB8c2xcIBW1N5IdwcinY5ohMnfJoZFnA+QQ687hIQeMmVLTpaYaj4hMYyrx5NlUn5SxB+8qGE25N69IqlSWURd8BIpSz33DEC//MqPxhdz+icuycrZufVIvj/nA7+SBHsCnu1SISYKIkxUoTyC0XUzjEpgwHRfj7qJSEavAZL2oMzJWXPziVFRtIL1mhGDE4KIp+jhfaIZI9hB962uzq+wAMAc=
+     procedure_id : 1760460094817673347
+     type_code : 14
+     code : |1+
+      // Summary: Loads a wdgantt file
+      // Syntax:
+      //LoadFile (<sFile>)
+      //
+      // Parameters:
+      // 	sFile: <specify the role of sFile>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE LoadFile(sFile)
+      
+      nRowSubscript is int
+      cATask is a GanttTask
+      stAGanttInfo is STGanttChartInfo
+      
+      
+      TABLE_Gantt..DisplayEnabled = False
+      
+      // Clears the structure
+      VariableReset(gstGanttChart)
+      // Clears the table
+      GanttDeleteAll(COL_Gantt)
+      TableDeleteAll(TABLE_Gantt)
+      
+      // Loads the file
+      bufContent is Buffer = fLoadBuffer(sFile)
+      
+      // Deserializes the chart of tasks in XML format
+      Deserialize(gstGanttChart, bufContent, psdXML)
+      
+      // Browses the array to add the tasks
+      FOR ALL ELEMENT stAGanttInfo of gstGanttChart.arrTaskList
+      	
+      	IF stAGanttInfo.nParentSubscript = 0 THEN
+      		// Adds the row
+      		nRowSubscript = TableAddLine(TABLE_Gantt, stAGanttInfo.Task.ID, stAGanttInfo.Task.Titre, stAGanttInfo.Task.DateDébut, stAGanttInfo.Task.DuréeEnJour, stAGanttInfo.Task.Avancement, stAGanttInfo.Task)
+      	ELSE
+      		// Adds the row in child
+      		nRowSubscript = TableAddChild(TABLE_Gantt, stAGanttInfo.nParentSubscript, stAGanttInfo.Task.ID, stAGanttInfo.Task.Titre, stAGanttInfo.Task.DateDébut, stAGanttInfo.Task.DuréeEnJour, stAGanttInfo.Task.Avancement, stAGanttInfo.Task)
+      	END
+      	
+      END
+      
+      // Applies the "styles" to the table (image, grayed cell, etc.)
+      FOR ALL ROW nSubscript of TABLE_Gantt
+      	
+      	// Retrieves the task
+      	cATask <- COL_Gantt[COL_TaskID]
+      	// If the task is a cumulative task
+      	IF cATask..Cumulative THEN SwitchTaskToCumulative(nSubscript)
+      	// If the task is a milestone
+      	IF cATask..Milestone THEN SwitchTaskToMilestone(nSubscript)
+      	// If the task is neither cumulative nor a milestone
+      	IF cATask..Cumulative = False _AND_ cATask..Milestone = False THEN SwitchTaskToStandard(nSubscript)
+      	
+      END
+      
+      // Browses the array to add the links
+      FOR ALL ELEMENT cAGanttLink of gstGanttChart.arrListLinks
+      	GanttAddLink(COL_Gantt, cAGanttLink)
+      END
+      
+      // Reorganizes the tasks automatically
+      IF CBOX_AutomaticReorganization THEN GanttOrganizeTask(COL_Gantt)
+      
+      // Updates the information of the Gantt chart
+      DisplayGeneralInfo()
+      
+      TABLE_Gantt..DisplayEnabled = True
+      
+      // Modifies the status of the buttons
+      AdaptButtons()
+     type : 458752
+   -
+     name : UpdateTasksAfterAutoReorganization
+     procedure_id : 1760460094817738883
+     type_code : 14
+     code : |1+
+      // Summary: Updates the information about the tasks in the table after an automatic reorganization
+      // Syntax:
+      //UpdateTasksAfterAutoReorganization ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE UpdateTasksAfterAutoReorganization()
+      
+      ATask is a GanttTask
+      
+      
+      // Only for an automatic reorganization
+      IF COL_Gantt..AutomaticReorganization = False THEN RETURN
+      
+      TABLE_Gantt..DisplayEnabled = False
+      
+      // Browses the table rows
+      FOR ALL ROW nSubscript of TABLE_Gantt
+      	
+      	// Retrieves the task
+      	ATask = COL_Gantt[COL_TaskID[nSubscript]]
+      	
+      	// Ignore the cumulative tasks (they will be calculated later)
+      	IF ATask..Cumulative THEN CONTINUE
+      	
+      	// Updates the task information
+      	COL_Progress[nSubscript] = ATask..Progress
+      	COL_Duration[nSubscript] = ATask..DurationInDay
+      	COL_StartDate[nSubscript] = ATask..StartDate
+      	
+      	// Recalculates the information about the parents
+      	CalculateParentTasks(nSubscript)
+      	
+      END
+      
+      TABLE_Gantt..DisplayEnabled = True
+     type : 458752
+   -
+     name : AdaptButtons
+     procedure_id : 1760460094817804419
+     type_code : 14
+     code : |1-
+      // Summary: Adapts the status of buttons to the chart content
+      // Syntax:
+      //AdaptButtons ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AdaptButtons()
+      
+      // If the table is empty
+      IF TABLE_Gantt..Count = 0 THEN
+      	
+      	// Grays the buttons used to create, save and print
+      	BTN_New..State = Grayed
+      	BTN_Save..State = Grayed
+      	BTN_Print..State = Grayed
+      	
+      ELSE // If the table contains at least one row
+      	
+      	// Enables the buttons used to create, save and print
+      	BTN_New..State = Active
+      	BTN_Save..State = Active
+      	BTN_Print..State = Active
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x128380f9001e1682
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Title 1
+     index : 0
+   -
+     text :
+      en-GB : "Empty Gantt chart: add a task or a milestone first"
+     index : 1
+ dialogs :
+  -
+    identifier : 0x12865f0a004dfdaa
+    internal_properties : CAAAAAgAAADtRR5uf9/FwqffMBRynyTbQvhXv5C2qHF7zxvO3hm2TqjTOVBO7D5F5sM7QPjpbqhssiTkMcsaLWl9oNgBQTXd0E8+jtGB5g==
+    label :
+     fr-FR : "Un diagramme de Gantt est en cours d'édition. Si vous chargez un diagramme, le diagramme actuel sera perdu."
+     en-GB : "A Gantt chart is currently edited. If you load a chart, the current chart will be lost."
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Enregistrer puis charger un diagramme
+        en-GB : Save then load a chart
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Charger un diagramme
+        en-GB : Load a chart
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Annuler
+        en-GB : Cancel
+       image : {}
+       value : 3
+  -
+    identifier : 0x12865f5c007f3c30
+    internal_properties : CAAAAAgAAAC5sep6k+vxLtM7nGBmgzjfRvxbs5yqPOXvg4/SDqlmvjjT6TQiKHJ5WkenfNx12hT4xjDoPcceMW1xlCxd5YmxBHvSeuW1Eg==
+    label :
+     fr-FR : "Un diagramme de Gantt est en cours d'édition. Si vous quittez l'application, le diagramme sera perdu."
+     en-GB : "A Gantt chart is currently edited. If you exit from the application, the chart will be lost."
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Enregistrer puis quitter
+        en-GB : Save then exit
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Quitter
+        en-GB : Exit
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Ne pas quitter
+        en-GB : Don't exit
+       image : {}
+       value : 3
+  -
+    identifier : 0x1284fe0100ac6419
+    internal_properties : CAAAAAgAAACJQudzFcsv9Pu6MCUIaYb5XYF6Rgn8dB46XrXv4gVEV5arbSTBe7qp342sm5FZxnL/onvInlCmhbrBnxUgebFDERfBJCpmoGE=
+    label :
+     fr-FR : "Un diagramme de Gantt est en cours d'édition. Si vous créez un nouveau diagramme, le diagramme actuel sera perdu."
+     en-GB : "A Gantt chart is currently edited. If you create a new chart, the current chart will be lost."
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Enregistrer puis créer un nouveau diagramme
+        en-GB : Save then create a new chart
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Créer un nouveau diagramme
+        en-GB : Create a new chart
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Annuler
+        en-GB : Cancel
+       image : {}
+       value : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Main.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

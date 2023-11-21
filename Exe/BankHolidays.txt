@@ -1,0 +1,17 @@
+; This file defines the bank holidays that must be taken into account in the Gantt chart
+; <Caption in clear>: <Format>
+; The <Format> can correspond to:
+; - a date on 4 digits (in MMDD format) to define a bank holiday whose date is fixed over the years ("1225" for Christmas for example).
+; - a date on 8 digits (in YYYYMMDD format) to define a bank holiday for a specific year ("20080808" for the 8th of August 2008 for example).
+; - a date in the following format: <Month>_<Week number>_<Day number in the week>. For example: 11_2_3 for the 2nd Wednesday of November.
+; - one of the WLanguage constants (value @X)
+
+Columbus Day : 10_2_1
+Independance Day : 0704
+Labor Day : 9_1_1
+Martin Luther King's Birthday : 1_3_1
+Memorial Day : 5_4_1
+New Year's Day : 0101
+Thanksgiving : 11_4_4
+Veteran's Day : 1111
+Christmas : 1225
